@@ -1,0 +1,23 @@
+{
+    "name": "com.bdeshi.serializablelogger",
+    "version": "1.0.0",
+    "displayName": "Serializable Logger",
+    "description": "Serializable Logger<Enum> that can have per enum val configuration",
+    "unity": "2022.3",
+    "unityRelease": "9f1",
+    "dependencies": {
+      "com.unity.inputsystem": "1.7.0",
+      "com.unity.modules.ui": "1.0.0"
+    },
+    "keywords": [
+        "Utility"
+        ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BDeshiDev/Serializable-Logger.git"    
+        },
+        "license": "MIT",  
+        "author": {
+            "name": "B-DeshiDev"
+        }
+  }
