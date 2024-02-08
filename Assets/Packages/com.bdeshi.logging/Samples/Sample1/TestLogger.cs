@@ -20,16 +20,18 @@ namespace bdeshi.logging.Samples
             );
         public LogPriority testLogPriority;
         public TestLogCategory testLogCategory;
-
+        public static TestLogger Instance;
         private void Awake()
         {
+            Instance = this;
             Logger.DefaultContext = this;
         }
 
         [ContextMenu("log test")]
         public void logTest()
         {
-            Logger.Log(testLogCategory, "TEST", testLogPriority);
+            Debug.LogError("ASDASDAS");
+            Logger.LogError(testLogCategory, "TEST", testLogPriority);
         }
     }
 }
