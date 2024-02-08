@@ -1,8 +1,8 @@
 {
-    "name": "com.bdeshi.serializablelogger",
-    "version": "1.0.0",
-    "displayName": "Serializable Logger",
-    "description": "Serializable Logger<Enum> that can have per enum val configuration",
+    "name": "com.bdeshi.categorylogger",
+    "version": "1.0.1",
+    "displayName": "Serializable enum category based Logger",
+    "description": "Serializable Logger<Enum> that can have be enabled enum val",
     "unity": "2022.3",
     "unityRelease": "9f1",
     "dependencies": {
@@ -14,10 +14,17 @@
         ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BDeshiDev/Serializable-Logger.git"    
+        "url": "https://github.com/BDeshiDev/Category-Based-Unity-Logger-.git"    
         },
         "license": "MIT",  
         "author": {
             "name": "B-DeshiDev"
+        },
+    "samples": [
+        {
+            "displayName": "Functional Example",
+            "description": "A sample scene with a logger and a sublogger in the scene",
+            "path": "Samples~/Sample1/"
         }
-  }
+    ]
+}
