@@ -1,4 +1,6 @@
 {
   "dependencies": {
+    "com.unity.ide.rider": "3.0.27",
+    "com.unity.ugui": "1.0.0"
   }
 }
