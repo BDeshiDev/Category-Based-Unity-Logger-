@@ -1,8 +1,8 @@
 {
     "name": "com.bdeshi.serializablelogger",
     "version": "1.0.0",
-    "displayName": "Serializable Logger",
-    "description": "Serializable Logger<Enum> that can have per enum val configuration",
+    "displayName": "Category Based Logger",
+    "description": "Category Based<Enum> that can be enabled per enum val",
     "unity": "2022.3",
     "unityRelease": "9f1",
     "dependencies": {
