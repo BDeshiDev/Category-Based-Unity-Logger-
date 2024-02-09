@@ -101,7 +101,7 @@ Class TestSubLogger  <a class="header-action link-secondary" title="View source"
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TestSubLogger : MonoBehaviour, ISubLoggerMixin&lt;TestLogCategory&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class TestSubLogger : MonoBehaviour, ISubCategoryLoggerMixin&lt;TestLogCategory&gt;</code></pre>
   </div>
 
 
@@ -118,12 +118,34 @@ Class TestSubLogger  <a class="header-action link-secondary" title="View source"
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><span class="xref">ISubLoggerMixin</span>&lt;<a class="xref" href="bdeshi.logging.Samples.TestLogCategory.html">TestLogCategory</a>&gt;</div>
+      <div><a class="xref" href="BDeshi.Logging.ISubCategoryLoggerMixin-1.html">ISubCategoryLoggerMixin</a>&lt;<a class="xref" href="bdeshi.logging.Samples.TestLogCategory.html">TestLogCategory</a>&gt;</div>
     </dd>
   </dl>
 
 
 
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_LogError__1_BDeshi_Logging_ISubCategoryLoggerMixin___0__System_String_BDeshi_Logging_LogPriority_">LoggingExtensions.LogError&lt;TLogCategory&gt;(ISubCategoryLoggerMixin&lt;TLogCategory&gt;, string, LogPriority)</a>
+  </div>
+  <div>
+      <a class="xref" href="BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_LogError__1_BDeshi_Logging_ISubCategoryLoggerMixin___0__System_String___0_BDeshi_Logging_LogPriority_">LoggingExtensions.LogError&lt;TLogCategory&gt;(ISubCategoryLoggerMixin&lt;TLogCategory&gt;, string, TLogCategory, LogPriority)</a>
+  </div>
+  <div>
+      <a class="xref" href="BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_LogWarning__1_BDeshi_Logging_ISubCategoryLoggerMixin___0__System_String_BDeshi_Logging_LogPriority_">LoggingExtensions.LogWarning&lt;TLogCategory&gt;(ISubCategoryLoggerMixin&lt;TLogCategory&gt;, string, LogPriority)</a>
+  </div>
+  <div>
+      <a class="xref" href="BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_LogWarning__1_BDeshi_Logging_ISubCategoryLoggerMixin___0__System_String___0_BDeshi_Logging_LogPriority_">LoggingExtensions.LogWarning&lt;TLogCategory&gt;(ISubCategoryLoggerMixin&lt;TLogCategory&gt;, string, TLogCategory, LogPriority)</a>
+  </div>
+  <div>
+      <a class="xref" href="BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_Log__1_BDeshi_Logging_ISubCategoryLoggerMixin___0__System_String_BDeshi_Logging_LogPriority_">LoggingExtensions.Log&lt;TLogCategory&gt;(ISubCategoryLoggerMixin&lt;TLogCategory&gt;, string, LogPriority)</a>
+  </div>
+  <div>
+      <a class="xref" href="BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_Log__1_BDeshi_Logging_ISubCategoryLoggerMixin___0__System_String___0_BDeshi_Logging_LogPriority_">LoggingExtensions.Log&lt;TLogCategory&gt;(ISubCategoryLoggerMixin&lt;TLogCategory&gt;, string, TLogCategory, LogPriority)</a>
+  </div>
+  </dd></dl>
 
 
 
@@ -175,7 +197,7 @@ Class TestSubLogger  <a class="header-action link-secondary" title="View source"
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CustomLogger&lt;TestLogCategory&gt; Logger { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ICategoryLogger&lt;TestLogCategory&gt; Logger { get; }</code></pre>
   </div>
 
 
@@ -184,7 +206,7 @@ Class TestSubLogger  <a class="header-action link-secondary" title="View source"
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><span class="xref">CustomLogger</span>&lt;<a class="xref" href="bdeshi.logging.Samples.TestLogCategory.html">TestLogCategory</a>&gt;</dt>
+    <dt><a class="xref" href="BDeshi.Logging.ICategoryLogger-1.html">ICategoryLogger</a>&lt;<a class="xref" href="bdeshi.logging.Samples.TestLogCategory.html">TestLogCategory</a>&gt;</dt>
     <dd></dd>
   </dl>
 
