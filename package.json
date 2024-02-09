@@ -1,0 +1,38 @@
+{
+    "name": "com.bdeshi.categorylogger",
+    "version": "1.0.8",
+    "displayName": "Category Based Logger",
+    "description": "A logger that allows you to filter logs based on a generic enum bitfield parameter",
+    "unity": "2022.3",
+    "unityRelease": "10f1",
+    "licensesUrl": "https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/93ce1925a35e0c8ad0d6b56890f5d27e9a0e02b4/LICENSE.md",
+    "scopedRegistries":  [
+      {
+        "name": "Studio 23",
+        "url": "https://package.openupm.com",
+        "scopes": [
+          "com.bdeshi.categorylogger"
+        ]
+      }], 
+    "dependencies": {
+
+   },
+   "keywords": [
+      "logging"
+    ],
+  "samples": [
+      {
+        "displayName": "Sample1",
+        "description": "A scene containing an example logger",
+        "path": "Samples~/Sample1/"
+      }
+    ],  
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/Studio-23-xyz/Category-Based-Unity-Logger-.git"    
+    },
+    "license": "MIT",  
+    "author": {
+      "name": "B-DeshIDev"
+    }
+  }
