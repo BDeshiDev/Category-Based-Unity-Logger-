@@ -15,6 +15,56 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/BDeshi.Logging.CustomLogger-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BDeshi.Logging.CustomLogger-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BDeshi.Logging.ISubLoggerMixin-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BDeshi.Logging.ISubLoggerMixin-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BDeshi.Logging.LogPriority.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BDeshi.Logging.LogPriority.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BDeshi.Logging.LoggingExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BDeshi.Logging.LoggingExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BDeshi.Logging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BDeshi.Logging.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/bdeshi.logging.Samples.TestLogCategory.yml",
       "output": {
         ".html": {

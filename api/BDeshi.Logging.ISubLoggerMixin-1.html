@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class TestSubLogger |  |  </title>
+      <title>Interface ISubLoggerMixin&lt;TLogCategory&gt; |  |  </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class TestSubLogger |  |  ">
+      <meta name="title" content="Interface ISubLoggerMixin&lt;TLogCategory&gt; |  |  ">
       
-      
+      <meta name="description" content="Mixin for calling logger easily">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       <meta name="docfx:disablenewtab" content="true">
       
-      <meta name="docfx:docurl" content="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/new/main/apiSpec/new?filename=bdeshi_logging_Samples_TestSubLogger.md&amp;value=---%0Auid%3A%20bdeshi.logging.Samples.TestSubLogger%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/new/main/apiSpec/new?filename=BDeshi_Logging_ISubLoggerMixin_1.md&amp;value=---%0Auid%3A%20BDeshi.Logging.ISubLoggerMixin%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,43 +84,36 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="bdeshi.logging.Samples.TestSubLogger">
+        <article data-uid="BDeshi.Logging.ISubLoggerMixin`1">
 
 
 
-  <h1 id="bdeshi_logging_Samples_TestSubLogger" data-uid="bdeshi.logging.Samples.TestSubLogger" class="text-break">
-Class TestSubLogger  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/Samples/Sample1/TestSubLogger.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  <h1 id="BDeshi_Logging_ISubLoggerMixin_1" data-uid="BDeshi.Logging.ISubLoggerMixin`1" class="text-break">
+Interface ISubLoggerMixin&lt;TLogCategory&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/ISubLoggerMixin.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="bdeshi.html">bdeshi</a>.<a class="xref" href="bdeshi.logging.html">logging</a>.<a class="xref" href="bdeshi.logging.Samples.html">Samples</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="BDeshi.html">BDeshi</a>.<a class="xref" href="BDeshi.Logging.html">Logging</a></dd></dl>
   
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Mixin for calling logger easily</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TestSubLogger : MonoBehaviour, ISubLoggerMixin&lt;TestLogCategory&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public interface ISubLoggerMixin&lt;TLogCategory&gt; where TLogCategory : struct, Enum, IConvertible</code></pre>
   </div>
 
 
 
-
-  <dl class="typelist inheritance">
-    <dt>Inheritance</dt>
-    <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">TestSubLogger</span></div>
-    </dd>
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TLogCategory</code></dt>
+    <dd></dd>
   </dl>
 
-  <dl class="typelist implements">
-    <dt>Implements</dt>
-    <dd>
-      <div><a class="xref" href="BDeshi.Logging.ISubLoggerMixin-1.html">ISubLoggerMixin</a>&lt;<a class="xref" href="bdeshi.logging.Samples.TestLogCategory.html">TestLogCategory</a>&gt;</div>
-    </dd>
-  </dl>
+
 
 
 
@@ -155,18 +148,18 @@ Class TestSubLogger  <a class="header-action link-secondary" title="View source"
 </h2>
 
 
-  <a id="bdeshi_logging_Samples_TestSubLogger_Category_" data-uid="bdeshi.logging.Samples.TestSubLogger.Category*"></a>
+  <a id="BDeshi_Logging_ISubLoggerMixin_1_Category_" data-uid="BDeshi.Logging.ISubLoggerMixin`1.Category*"></a>
 
-  <h3 id="bdeshi_logging_Samples_TestSubLogger_Category" data-uid="bdeshi.logging.Samples.TestSubLogger.Category">
+  <h3 id="BDeshi_Logging_ISubLoggerMixin_1_Category" data-uid="BDeshi.Logging.ISubLoggerMixin`1.Category">
   Category
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/Samples/Sample1/TestSubLogger.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/ISubLoggerMixin.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TestLogCategory Category { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">TLogCategory Category { get; }</code></pre>
   </div>
 
 
@@ -175,7 +168,7 @@ Class TestSubLogger  <a class="header-action link-secondary" title="View source"
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="bdeshi.logging.Samples.TestLogCategory.html">TestLogCategory</a></dt>
+    <dt><span class="xref">TLogCategory</span></dt>
     <dd></dd>
   </dl>
 
@@ -186,18 +179,18 @@ Class TestSubLogger  <a class="header-action link-secondary" title="View source"
 
 
 
-  <a id="bdeshi_logging_Samples_TestSubLogger_Logger_" data-uid="bdeshi.logging.Samples.TestSubLogger.Logger*"></a>
+  <a id="BDeshi_Logging_ISubLoggerMixin_1_Logger_" data-uid="BDeshi.Logging.ISubLoggerMixin`1.Logger*"></a>
 
-  <h3 id="bdeshi_logging_Samples_TestSubLogger_Logger" data-uid="bdeshi.logging.Samples.TestSubLogger.Logger">
+  <h3 id="BDeshi_Logging_ISubLoggerMixin_1_Logger" data-uid="BDeshi.Logging.ISubLoggerMixin`1.Logger">
   Logger
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/Samples/Sample1/TestSubLogger.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/ISubLoggerMixin.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CustomLogger&lt;TestLogCategory&gt; Logger { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">CustomLogger&lt;TLogCategory&gt; Logger { get; }</code></pre>
   </div>
 
 
@@ -206,7 +199,7 @@ Class TestSubLogger  <a class="header-action link-secondary" title="View source"
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="BDeshi.Logging.CustomLogger-1.html">CustomLogger</a>&lt;<a class="xref" href="bdeshi.logging.Samples.TestLogCategory.html">TestLogCategory</a>&gt;</dt>
+    <dt><a class="xref" href="BDeshi.Logging.CustomLogger-1.html">CustomLogger</a>&lt;TLogCategory&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -217,28 +210,29 @@ Class TestSubLogger  <a class="header-action link-secondary" title="View source"
 
 
 
-  <h2 class="section" id="methods">Methods
-</h2>
+  <a id="BDeshi_Logging_ISubLoggerMixin_1_gameObject_" data-uid="BDeshi.Logging.ISubLoggerMixin`1.gameObject*"></a>
 
-
-  <a id="bdeshi_logging_Samples_TestSubLogger_logTest_" data-uid="bdeshi.logging.Samples.TestSubLogger.logTest*"></a>
-
-  <h3 id="bdeshi_logging_Samples_TestSubLogger_logTest" data-uid="bdeshi.logging.Samples.TestSubLogger.logTest">
-  logTest()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/Samples/Sample1/TestSubLogger.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BDeshi_Logging_ISubLoggerMixin_1_gameObject" data-uid="BDeshi.Logging.ISubLoggerMixin`1.gameObject">
+  gameObject
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/ISubLoggerMixin.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void logTest()</code></pre>
+    <pre><code class="lang-csharp hljs">GameObject gameObject { get; }</code></pre>
   </div>
 
 
 
 
 
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span></dt>
+    <dd></dd>
+  </dl>
 
 
 
