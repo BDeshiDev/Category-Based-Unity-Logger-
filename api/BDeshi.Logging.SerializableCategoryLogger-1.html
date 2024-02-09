@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class CustomLogger&lt;TLogCategory&gt; |  |  </title>
+      <title>Class SerializableCategoryLogger&lt;TLogCategory&gt; |  |  </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class CustomLogger&lt;TLogCategory&gt; |  |  ">
+      <meta name="title" content="Class SerializableCategoryLogger&lt;TLogCategory&gt; |  |  ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       <meta name="docfx:disablenewtab" content="true">
       
-      <meta name="docfx:docurl" content="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/new/main/apiSpec/new?filename=BDeshi_Logging_CustomLogger_1.md&amp;value=---%0Auid%3A%20BDeshi.Logging.CustomLogger%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/new/main/apiSpec/new?filename=BDeshi_Logging_SerializableCategoryLogger_1.md&amp;value=---%0Auid%3A%20BDeshi.Logging.SerializableCategoryLogger%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="BDeshi.Logging.CustomLogger`1">
+        <article data-uid="BDeshi.Logging.SerializableCategoryLogger`1">
 
 
 
-  <h1 id="BDeshi_Logging_CustomLogger_1" data-uid="BDeshi.Logging.CustomLogger`1" class="text-break">
-Class CustomLogger&lt;TLogCategory&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/CustomLogger.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <h1 id="BDeshi_Logging_SerializableCategoryLogger_1" data-uid="BDeshi.Logging.SerializableCategoryLogger`1" class="text-break">
+Class SerializableCategoryLogger&lt;TLogCategory&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/SerializableCategoryLogger.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Class CustomLogger&lt;TLogCategory&gt;  <a class="header-action link-secondary" 
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
-public class CustomLogger&lt;TLogCategory&gt; where TLogCategory : struct, Enum, IConvertible</code></pre>
+public class SerializableCategoryLogger&lt;TLogCategory&gt; : ICategoryLogger&lt;TLogCategory&gt; where TLogCategory : struct, Enum, IConvertible</code></pre>
   </div>
 
 
@@ -117,10 +117,16 @@ public class CustomLogger&lt;TLogCategory&gt; where TLogCategory : struct, Enum,
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">CustomLogger&lt;TLogCategory&gt;</span></div>
+      <div><span class="xref">SerializableCategoryLogger&lt;TLogCategory&gt;</span></div>
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="BDeshi.Logging.ICategoryLogger-1.html">ICategoryLogger</a>&lt;TLogCategory&gt;</div>
+    </dd>
+  </dl>
 
 
   <dl class="typelist inheritedMembers">
@@ -158,25 +164,27 @@ public class CustomLogger&lt;TLogCategory&gt; where TLogCategory : struct, Enum,
 </h2>
 
 
-  <a id="BDeshi_Logging_CustomLogger_1__ctor_" data-uid="BDeshi.Logging.CustomLogger`1.#ctor*"></a>
+  <a id="BDeshi_Logging_SerializableCategoryLogger_1__ctor_" data-uid="BDeshi.Logging.SerializableCategoryLogger`1.#ctor*"></a>
 
-  <h3 id="BDeshi_Logging_CustomLogger_1__ctor__0_GameObject_BDeshi_Logging_LogPriority_" data-uid="BDeshi.Logging.CustomLogger`1.#ctor(`0,GameObject,BDeshi.Logging.LogPriority)">
-  CustomLogger(TLogCategory, GameObject, LogPriority)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/CustomLogger.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BDeshi_Logging_SerializableCategoryLogger_1__ctor__0_System_String_UnityEngine_Object_BDeshi_Logging_LogPriority_" data-uid="BDeshi.Logging.SerializableCategoryLogger`1.#ctor(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)">
+  SerializableCategoryLogger(TLogCategory, string, Object, LogPriority)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/SerializableCategoryLogger.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CustomLogger(TLogCategory flags, GameObject defaultContext = null, LogPriority minLogPriority = LogPriority.Normal)</code></pre>
+    <pre><code class="lang-csharp hljs">public SerializableCategoryLogger(TLogCategory flags, string Prefix, UnityEngine.Object defaultContext = null, LogPriority minLogPriority = LogPriority.Normal)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>flags</code> <span class="xref">TLogCategory</span></dt>
     <dd></dd>
-    <dt><code>defaultContext</code> <span class="xref">GameObject</span></dt>
+    <dt><code>Prefix</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>defaultContext</code> <span class="xref">Object</span></dt>
     <dd></dd>
     <dt><code>minLogPriority</code> <a class="xref" href="BDeshi.Logging.LogPriority.html">LogPriority</a></dt>
     <dd></dd>
@@ -193,27 +201,25 @@ public class CustomLogger&lt;TLogCategory&gt; where TLogCategory : struct, Enum,
 
 
 
-  <a id="BDeshi_Logging_CustomLogger_1__ctor_" data-uid="BDeshi.Logging.CustomLogger`1.#ctor*"></a>
+  <a id="BDeshi_Logging_SerializableCategoryLogger_1__ctor_" data-uid="BDeshi.Logging.SerializableCategoryLogger`1.#ctor*"></a>
 
-  <h3 id="BDeshi_Logging_CustomLogger_1__ctor__0_System_String_GameObject_BDeshi_Logging_LogPriority_" data-uid="BDeshi.Logging.CustomLogger`1.#ctor(`0,System.String,GameObject,BDeshi.Logging.LogPriority)">
-  CustomLogger(TLogCategory, string, GameObject, LogPriority)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/CustomLogger.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BDeshi_Logging_SerializableCategoryLogger_1__ctor__0_UnityEngine_Object_BDeshi_Logging_LogPriority_" data-uid="BDeshi.Logging.SerializableCategoryLogger`1.#ctor(`0,UnityEngine.Object,BDeshi.Logging.LogPriority)">
+  SerializableCategoryLogger(TLogCategory, Object, LogPriority)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/SerializableCategoryLogger.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CustomLogger(TLogCategory flags, string Prefix, GameObject defaultContext = null, LogPriority minLogPriority = LogPriority.Normal)</code></pre>
+    <pre><code class="lang-csharp hljs">public SerializableCategoryLogger(TLogCategory flags, UnityEngine.Object defaultContext = null, LogPriority minLogPriority = LogPriority.Normal)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>flags</code> <span class="xref">TLogCategory</span></dt>
     <dd></dd>
-    <dt><code>Prefix</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-    <dt><code>defaultContext</code> <span class="xref">GameObject</span></dt>
+    <dt><code>defaultContext</code> <span class="xref">Object</span></dt>
     <dd></dd>
     <dt><code>minLogPriority</code> <a class="xref" href="BDeshi.Logging.LogPriority.html">LogPriority</a></dt>
     <dd></dd>
@@ -235,9 +241,9 @@ public class CustomLogger&lt;TLogCategory&gt; where TLogCategory : struct, Enum,
 
 
 
-  <h3 id="BDeshi_Logging_CustomLogger_1_CategoryColor" data-uid="BDeshi.Logging.CustomLogger`1.CategoryColor">
+  <h3 id="BDeshi_Logging_SerializableCategoryLogger_1_CategoryColor" data-uid="BDeshi.Logging.SerializableCategoryLogger`1.CategoryColor">
   CategoryColor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/CustomLogger.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/SerializableCategoryLogger.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -265,39 +271,9 @@ public class CustomLogger&lt;TLogCategory&gt; where TLogCategory : struct, Enum,
 
 
 
-  <h3 id="BDeshi_Logging_CustomLogger_1_DefaultContext" data-uid="BDeshi.Logging.CustomLogger`1.DefaultContext">
-  DefaultContext
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/CustomLogger.cs/#L20"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEngine.Object DefaultContext</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">Object</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="BDeshi_Logging_CustomLogger_1_Flags" data-uid="BDeshi.Logging.CustomLogger`1.Flags">
+  <h3 id="BDeshi_Logging_SerializableCategoryLogger_1_Flags" data-uid="BDeshi.Logging.SerializableCategoryLogger`1.Flags">
   Flags
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/CustomLogger.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/SerializableCategoryLogger.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -325,9 +301,9 @@ public class CustomLogger&lt;TLogCategory&gt; where TLogCategory : struct, Enum,
 
 
 
-  <h3 id="BDeshi_Logging_CustomLogger_1_MinLogPriority" data-uid="BDeshi.Logging.CustomLogger`1.MinLogPriority">
+  <h3 id="BDeshi_Logging_SerializableCategoryLogger_1_MinLogPriority" data-uid="BDeshi.Logging.SerializableCategoryLogger`1.MinLogPriority">
   MinLogPriority
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/CustomLogger.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/SerializableCategoryLogger.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -355,9 +331,9 @@ public class CustomLogger&lt;TLogCategory&gt; where TLogCategory : struct, Enum,
 
 
 
-  <h3 id="BDeshi_Logging_CustomLogger_1_Prefix" data-uid="BDeshi.Logging.CustomLogger`1.Prefix">
+  <h3 id="BDeshi_Logging_SerializableCategoryLogger_1_Prefix" data-uid="BDeshi.Logging.SerializableCategoryLogger`1.Prefix">
   Prefix
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/CustomLogger.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/SerializableCategoryLogger.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -384,15 +360,50 @@ public class CustomLogger&lt;TLogCategory&gt; where TLogCategory : struct, Enum,
 
 
 
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="BDeshi_Logging_SerializableCategoryLogger_1_DefaultContext_" data-uid="BDeshi.Logging.SerializableCategoryLogger`1.DefaultContext*"></a>
+
+  <h3 id="BDeshi_Logging_SerializableCategoryLogger_1_DefaultContext" data-uid="BDeshi.Logging.SerializableCategoryLogger`1.DefaultContext">
+  DefaultContext
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/SerializableCategoryLogger.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.Object DefaultContext { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Object</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
 
-  <a id="BDeshi_Logging_CustomLogger_1_Log_" data-uid="BDeshi.Logging.CustomLogger`1.Log*"></a>
+  <a id="BDeshi_Logging_SerializableCategoryLogger_1_Log_" data-uid="BDeshi.Logging.SerializableCategoryLogger`1.Log*"></a>
 
-  <h3 id="BDeshi_Logging_CustomLogger_1_Log__0_System_String_BDeshi_Logging_LogPriority_" data-uid="BDeshi.Logging.CustomLogger`1.Log(`0,System.String,BDeshi.Logging.LogPriority)">
+  <h3 id="BDeshi_Logging_SerializableCategoryLogger_1_Log__0_System_String_BDeshi_Logging_LogPriority_" data-uid="BDeshi.Logging.SerializableCategoryLogger`1.Log(`0,System.String,BDeshi.Logging.LogPriority)">
   Log(TLogCategory, string, LogPriority)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/CustomLogger.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/SerializableCategoryLogger.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -423,11 +434,11 @@ public class CustomLogger&lt;TLogCategory&gt; where TLogCategory : struct, Enum,
 
 
 
-  <a id="BDeshi_Logging_CustomLogger_1_Log_" data-uid="BDeshi.Logging.CustomLogger`1.Log*"></a>
+  <a id="BDeshi_Logging_SerializableCategoryLogger_1_Log_" data-uid="BDeshi.Logging.SerializableCategoryLogger`1.Log*"></a>
 
-  <h3 id="BDeshi_Logging_CustomLogger_1_Log__0_System_String_UnityEngine_Object_BDeshi_Logging_LogPriority_" data-uid="BDeshi.Logging.CustomLogger`1.Log(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)">
+  <h3 id="BDeshi_Logging_SerializableCategoryLogger_1_Log__0_System_String_UnityEngine_Object_BDeshi_Logging_LogPriority_" data-uid="BDeshi.Logging.SerializableCategoryLogger`1.Log(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)">
   Log(TLogCategory, string, Object, LogPriority)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/CustomLogger.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/SerializableCategoryLogger.cs/#L46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -460,11 +471,11 @@ public class CustomLogger&lt;TLogCategory&gt; where TLogCategory : struct, Enum,
 
 
 
-  <a id="BDeshi_Logging_CustomLogger_1_LogError_" data-uid="BDeshi.Logging.CustomLogger`1.LogError*"></a>
+  <a id="BDeshi_Logging_SerializableCategoryLogger_1_LogError_" data-uid="BDeshi.Logging.SerializableCategoryLogger`1.LogError*"></a>
 
-  <h3 id="BDeshi_Logging_CustomLogger_1_LogError__0_System_String_BDeshi_Logging_LogPriority_" data-uid="BDeshi.Logging.CustomLogger`1.LogError(`0,System.String,BDeshi.Logging.LogPriority)">
+  <h3 id="BDeshi_Logging_SerializableCategoryLogger_1_LogError__0_System_String_BDeshi_Logging_LogPriority_" data-uid="BDeshi.Logging.SerializableCategoryLogger`1.LogError(`0,System.String,BDeshi.Logging.LogPriority)">
   LogError(TLogCategory, string, LogPriority)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/CustomLogger.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/SerializableCategoryLogger.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -495,11 +506,11 @@ public class CustomLogger&lt;TLogCategory&gt; where TLogCategory : struct, Enum,
 
 
 
-  <a id="BDeshi_Logging_CustomLogger_1_LogError_" data-uid="BDeshi.Logging.CustomLogger`1.LogError*"></a>
+  <a id="BDeshi_Logging_SerializableCategoryLogger_1_LogError_" data-uid="BDeshi.Logging.SerializableCategoryLogger`1.LogError*"></a>
 
-  <h3 id="BDeshi_Logging_CustomLogger_1_LogError__0_System_String_UnityEngine_Object_BDeshi_Logging_LogPriority_" data-uid="BDeshi.Logging.CustomLogger`1.LogError(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)">
+  <h3 id="BDeshi_Logging_SerializableCategoryLogger_1_LogError__0_System_String_UnityEngine_Object_BDeshi_Logging_LogPriority_" data-uid="BDeshi.Logging.SerializableCategoryLogger`1.LogError(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)">
   LogError(TLogCategory, string, Object, LogPriority)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/CustomLogger.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/SerializableCategoryLogger.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -532,11 +543,11 @@ public class CustomLogger&lt;TLogCategory&gt; where TLogCategory : struct, Enum,
 
 
 
-  <a id="BDeshi_Logging_CustomLogger_1_LogWarning_" data-uid="BDeshi.Logging.CustomLogger`1.LogWarning*"></a>
+  <a id="BDeshi_Logging_SerializableCategoryLogger_1_LogWarning_" data-uid="BDeshi.Logging.SerializableCategoryLogger`1.LogWarning*"></a>
 
-  <h3 id="BDeshi_Logging_CustomLogger_1_LogWarning__0_System_String_BDeshi_Logging_LogPriority_" data-uid="BDeshi.Logging.CustomLogger`1.LogWarning(`0,System.String,BDeshi.Logging.LogPriority)">
+  <h3 id="BDeshi_Logging_SerializableCategoryLogger_1_LogWarning__0_System_String_BDeshi_Logging_LogPriority_" data-uid="BDeshi.Logging.SerializableCategoryLogger`1.LogWarning(`0,System.String,BDeshi.Logging.LogPriority)">
   LogWarning(TLogCategory, string, LogPriority)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/CustomLogger.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/SerializableCategoryLogger.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -567,11 +578,11 @@ public class CustomLogger&lt;TLogCategory&gt; where TLogCategory : struct, Enum,
 
 
 
-  <a id="BDeshi_Logging_CustomLogger_1_LogWarning_" data-uid="BDeshi.Logging.CustomLogger`1.LogWarning*"></a>
+  <a id="BDeshi_Logging_SerializableCategoryLogger_1_LogWarning_" data-uid="BDeshi.Logging.SerializableCategoryLogger`1.LogWarning*"></a>
 
-  <h3 id="BDeshi_Logging_CustomLogger_1_LogWarning__0_System_String_UnityEngine_Object_BDeshi_Logging_LogPriority_" data-uid="BDeshi.Logging.CustomLogger`1.LogWarning(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)">
+  <h3 id="BDeshi_Logging_SerializableCategoryLogger_1_LogWarning__0_System_String_UnityEngine_Object_BDeshi_Logging_LogPriority_" data-uid="BDeshi.Logging.SerializableCategoryLogger`1.LogWarning(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)">
   LogWarning(TLogCategory, string, Object, LogPriority)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/CustomLogger.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/SerializableCategoryLogger.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

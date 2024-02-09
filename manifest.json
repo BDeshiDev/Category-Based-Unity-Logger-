@@ -15,20 +15,20 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BDeshi.Logging.CustomLogger-1.yml",
+      "source_relative_path": "api/BDeshi.Logging.ICategoryLogger-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BDeshi.Logging.CustomLogger-1.html"
+          "relative_path": "api/BDeshi.Logging.ICategoryLogger-1.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BDeshi.Logging.ISubLoggerMixin-1.yml",
+      "source_relative_path": "api/BDeshi.Logging.ISubCategoryLoggerMixin-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BDeshi.Logging.ISubLoggerMixin-1.html"
+          "relative_path": "api/BDeshi.Logging.ISubCategoryLoggerMixin-1.html"
         }
       },
       "version": ""
@@ -49,6 +49,16 @@
       "output": {
         ".html": {
           "relative_path": "api/BDeshi.Logging.LoggingExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BDeshi.Logging.SerializableCategoryLogger-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BDeshi.Logging.SerializableCategoryLogger-1.html"
         }
       },
       "version": ""

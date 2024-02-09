@@ -7,224 +7,173 @@ references:
   commentId: N:BDeshi.Logging
   fullName: BDeshi.Logging
   nameWithType: BDeshi.Logging
-- uid: BDeshi.Logging.CustomLogger`1
-  name: CustomLogger<TLogCategory>
-  href: api/BDeshi.Logging.CustomLogger-1.html
-  commentId: T:BDeshi.Logging.CustomLogger`1
-  name.vb: CustomLogger(Of TLogCategory)
-  fullName: BDeshi.Logging.CustomLogger<TLogCategory>
-  fullName.vb: BDeshi.Logging.CustomLogger(Of TLogCategory)
-  nameWithType: CustomLogger<TLogCategory>
-  nameWithType.vb: CustomLogger(Of TLogCategory)
-- uid: BDeshi.Logging.CustomLogger`1.#ctor(`0,GameObject,BDeshi.Logging.LogPriority)
-  name: CustomLogger(TLogCategory, GameObject, LogPriority)
-  href: api/BDeshi.Logging.CustomLogger-1.html#BDeshi_Logging_CustomLogger_1__ctor__0_GameObject_BDeshi_Logging_LogPriority_
-  commentId: M:BDeshi.Logging.CustomLogger`1.#ctor(`0,GameObject,BDeshi.Logging.LogPriority)
-  name.vb: New(TLogCategory, GameObject, LogPriority)
-  fullName: BDeshi.Logging.CustomLogger<TLogCategory>.CustomLogger(TLogCategory, GameObject, BDeshi.Logging.LogPriority)
-  fullName.vb: BDeshi.Logging.CustomLogger(Of TLogCategory).New(TLogCategory, GameObject, BDeshi.Logging.LogPriority)
-  nameWithType: CustomLogger<TLogCategory>.CustomLogger(TLogCategory, GameObject, LogPriority)
-  nameWithType.vb: CustomLogger(Of TLogCategory).New(TLogCategory, GameObject, LogPriority)
-- uid: BDeshi.Logging.CustomLogger`1.#ctor(`0,System.String,GameObject,BDeshi.Logging.LogPriority)
-  name: CustomLogger(TLogCategory, string, GameObject, LogPriority)
-  href: api/BDeshi.Logging.CustomLogger-1.html#BDeshi_Logging_CustomLogger_1__ctor__0_System_String_GameObject_BDeshi_Logging_LogPriority_
-  commentId: M:BDeshi.Logging.CustomLogger`1.#ctor(`0,System.String,GameObject,BDeshi.Logging.LogPriority)
-  name.vb: New(TLogCategory, String, GameObject, LogPriority)
-  fullName: BDeshi.Logging.CustomLogger<TLogCategory>.CustomLogger(TLogCategory, string, GameObject, BDeshi.Logging.LogPriority)
-  fullName.vb: BDeshi.Logging.CustomLogger(Of TLogCategory).New(TLogCategory, String, GameObject, BDeshi.Logging.LogPriority)
-  nameWithType: CustomLogger<TLogCategory>.CustomLogger(TLogCategory, string, GameObject, LogPriority)
-  nameWithType.vb: CustomLogger(Of TLogCategory).New(TLogCategory, String, GameObject, LogPriority)
-- uid: BDeshi.Logging.CustomLogger`1.#ctor*
-  name: CustomLogger
-  href: api/BDeshi.Logging.CustomLogger-1.html#BDeshi_Logging_CustomLogger_1__ctor_
-  commentId: Overload:BDeshi.Logging.CustomLogger`1.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: BDeshi.Logging.CustomLogger<TLogCategory>.CustomLogger
-  fullName.vb: BDeshi.Logging.CustomLogger(Of TLogCategory).New
-  nameWithType: CustomLogger<TLogCategory>.CustomLogger
-  nameWithType.vb: CustomLogger(Of TLogCategory).New
-- uid: BDeshi.Logging.CustomLogger`1.CategoryColor
-  name: CategoryColor
-  href: api/BDeshi.Logging.CustomLogger-1.html#BDeshi_Logging_CustomLogger_1_CategoryColor
-  commentId: F:BDeshi.Logging.CustomLogger`1.CategoryColor
-  fullName: BDeshi.Logging.CustomLogger<TLogCategory>.CategoryColor
-  fullName.vb: BDeshi.Logging.CustomLogger(Of TLogCategory).CategoryColor
-  nameWithType: CustomLogger<TLogCategory>.CategoryColor
-  nameWithType.vb: CustomLogger(Of TLogCategory).CategoryColor
-- uid: BDeshi.Logging.CustomLogger`1.DefaultContext
+- uid: BDeshi.Logging.ICategoryLogger`1
+  name: ICategoryLogger<TLogCategory>
+  href: api/BDeshi.Logging.ICategoryLogger-1.html
+  commentId: T:BDeshi.Logging.ICategoryLogger`1
+  name.vb: ICategoryLogger(Of TLogCategory)
+  fullName: BDeshi.Logging.ICategoryLogger<TLogCategory>
+  fullName.vb: BDeshi.Logging.ICategoryLogger(Of TLogCategory)
+  nameWithType: ICategoryLogger<TLogCategory>
+  nameWithType.vb: ICategoryLogger(Of TLogCategory)
+- uid: BDeshi.Logging.ICategoryLogger`1.DefaultContext
   name: DefaultContext
-  href: api/BDeshi.Logging.CustomLogger-1.html#BDeshi_Logging_CustomLogger_1_DefaultContext
-  commentId: F:BDeshi.Logging.CustomLogger`1.DefaultContext
-  fullName: BDeshi.Logging.CustomLogger<TLogCategory>.DefaultContext
-  fullName.vb: BDeshi.Logging.CustomLogger(Of TLogCategory).DefaultContext
-  nameWithType: CustomLogger<TLogCategory>.DefaultContext
-  nameWithType.vb: CustomLogger(Of TLogCategory).DefaultContext
-- uid: BDeshi.Logging.CustomLogger`1.Flags
-  name: Flags
-  href: api/BDeshi.Logging.CustomLogger-1.html#BDeshi_Logging_CustomLogger_1_Flags
-  commentId: F:BDeshi.Logging.CustomLogger`1.Flags
-  fullName: BDeshi.Logging.CustomLogger<TLogCategory>.Flags
-  fullName.vb: BDeshi.Logging.CustomLogger(Of TLogCategory).Flags
-  nameWithType: CustomLogger<TLogCategory>.Flags
-  nameWithType.vb: CustomLogger(Of TLogCategory).Flags
-- uid: BDeshi.Logging.CustomLogger`1.Log(`0,System.String,BDeshi.Logging.LogPriority)
+  href: api/BDeshi.Logging.ICategoryLogger-1.html#BDeshi_Logging_ICategoryLogger_1_DefaultContext
+  commentId: P:BDeshi.Logging.ICategoryLogger`1.DefaultContext
+  fullName: BDeshi.Logging.ICategoryLogger<TLogCategory>.DefaultContext
+  fullName.vb: BDeshi.Logging.ICategoryLogger(Of TLogCategory).DefaultContext
+  nameWithType: ICategoryLogger<TLogCategory>.DefaultContext
+  nameWithType.vb: ICategoryLogger(Of TLogCategory).DefaultContext
+- uid: BDeshi.Logging.ICategoryLogger`1.DefaultContext*
+  name: DefaultContext
+  href: api/BDeshi.Logging.ICategoryLogger-1.html#BDeshi_Logging_ICategoryLogger_1_DefaultContext_
+  commentId: Overload:BDeshi.Logging.ICategoryLogger`1.DefaultContext
+  isSpec: "True"
+  fullName: BDeshi.Logging.ICategoryLogger<TLogCategory>.DefaultContext
+  fullName.vb: BDeshi.Logging.ICategoryLogger(Of TLogCategory).DefaultContext
+  nameWithType: ICategoryLogger<TLogCategory>.DefaultContext
+  nameWithType.vb: ICategoryLogger(Of TLogCategory).DefaultContext
+- uid: BDeshi.Logging.ICategoryLogger`1.Log(`0,System.String,BDeshi.Logging.LogPriority)
   name: Log(TLogCategory, string, LogPriority)
-  href: api/BDeshi.Logging.CustomLogger-1.html#BDeshi_Logging_CustomLogger_1_Log__0_System_String_BDeshi_Logging_LogPriority_
-  commentId: M:BDeshi.Logging.CustomLogger`1.Log(`0,System.String,BDeshi.Logging.LogPriority)
+  href: api/BDeshi.Logging.ICategoryLogger-1.html#BDeshi_Logging_ICategoryLogger_1_Log__0_System_String_BDeshi_Logging_LogPriority_
+  commentId: M:BDeshi.Logging.ICategoryLogger`1.Log(`0,System.String,BDeshi.Logging.LogPriority)
   name.vb: Log(TLogCategory, String, LogPriority)
-  fullName: BDeshi.Logging.CustomLogger<TLogCategory>.Log(TLogCategory, string, BDeshi.Logging.LogPriority)
-  fullName.vb: BDeshi.Logging.CustomLogger(Of TLogCategory).Log(TLogCategory, String, BDeshi.Logging.LogPriority)
-  nameWithType: CustomLogger<TLogCategory>.Log(TLogCategory, string, LogPriority)
-  nameWithType.vb: CustomLogger(Of TLogCategory).Log(TLogCategory, String, LogPriority)
-- uid: BDeshi.Logging.CustomLogger`1.Log(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)
+  fullName: BDeshi.Logging.ICategoryLogger<TLogCategory>.Log(TLogCategory, string, BDeshi.Logging.LogPriority)
+  fullName.vb: BDeshi.Logging.ICategoryLogger(Of TLogCategory).Log(TLogCategory, String, BDeshi.Logging.LogPriority)
+  nameWithType: ICategoryLogger<TLogCategory>.Log(TLogCategory, string, LogPriority)
+  nameWithType.vb: ICategoryLogger(Of TLogCategory).Log(TLogCategory, String, LogPriority)
+- uid: BDeshi.Logging.ICategoryLogger`1.Log(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)
   name: Log(TLogCategory, string, Object, LogPriority)
-  href: api/BDeshi.Logging.CustomLogger-1.html#BDeshi_Logging_CustomLogger_1_Log__0_System_String_UnityEngine_Object_BDeshi_Logging_LogPriority_
-  commentId: M:BDeshi.Logging.CustomLogger`1.Log(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)
+  href: api/BDeshi.Logging.ICategoryLogger-1.html#BDeshi_Logging_ICategoryLogger_1_Log__0_System_String_UnityEngine_Object_BDeshi_Logging_LogPriority_
+  commentId: M:BDeshi.Logging.ICategoryLogger`1.Log(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)
   name.vb: Log(TLogCategory, String, Object, LogPriority)
-  fullName: BDeshi.Logging.CustomLogger<TLogCategory>.Log(TLogCategory, string, UnityEngine.Object, BDeshi.Logging.LogPriority)
-  fullName.vb: BDeshi.Logging.CustomLogger(Of TLogCategory).Log(TLogCategory, String, UnityEngine.Object, BDeshi.Logging.LogPriority)
-  nameWithType: CustomLogger<TLogCategory>.Log(TLogCategory, string, UnityEngine.Object, LogPriority)
-  nameWithType.vb: CustomLogger(Of TLogCategory).Log(TLogCategory, String, UnityEngine.Object, LogPriority)
-- uid: BDeshi.Logging.CustomLogger`1.Log*
+  fullName: BDeshi.Logging.ICategoryLogger<TLogCategory>.Log(TLogCategory, string, UnityEngine.Object, BDeshi.Logging.LogPriority)
+  fullName.vb: BDeshi.Logging.ICategoryLogger(Of TLogCategory).Log(TLogCategory, String, UnityEngine.Object, BDeshi.Logging.LogPriority)
+  nameWithType: ICategoryLogger<TLogCategory>.Log(TLogCategory, string, UnityEngine.Object, LogPriority)
+  nameWithType.vb: ICategoryLogger(Of TLogCategory).Log(TLogCategory, String, UnityEngine.Object, LogPriority)
+- uid: BDeshi.Logging.ICategoryLogger`1.Log*
   name: Log
-  href: api/BDeshi.Logging.CustomLogger-1.html#BDeshi_Logging_CustomLogger_1_Log_
-  commentId: Overload:BDeshi.Logging.CustomLogger`1.Log
+  href: api/BDeshi.Logging.ICategoryLogger-1.html#BDeshi_Logging_ICategoryLogger_1_Log_
+  commentId: Overload:BDeshi.Logging.ICategoryLogger`1.Log
   isSpec: "True"
-  fullName: BDeshi.Logging.CustomLogger<TLogCategory>.Log
-  fullName.vb: BDeshi.Logging.CustomLogger(Of TLogCategory).Log
-  nameWithType: CustomLogger<TLogCategory>.Log
-  nameWithType.vb: CustomLogger(Of TLogCategory).Log
-- uid: BDeshi.Logging.CustomLogger`1.LogError(`0,System.String,BDeshi.Logging.LogPriority)
+  fullName: BDeshi.Logging.ICategoryLogger<TLogCategory>.Log
+  fullName.vb: BDeshi.Logging.ICategoryLogger(Of TLogCategory).Log
+  nameWithType: ICategoryLogger<TLogCategory>.Log
+  nameWithType.vb: ICategoryLogger(Of TLogCategory).Log
+- uid: BDeshi.Logging.ICategoryLogger`1.LogError(`0,System.String,BDeshi.Logging.LogPriority)
   name: LogError(TLogCategory, string, LogPriority)
-  href: api/BDeshi.Logging.CustomLogger-1.html#BDeshi_Logging_CustomLogger_1_LogError__0_System_String_BDeshi_Logging_LogPriority_
-  commentId: M:BDeshi.Logging.CustomLogger`1.LogError(`0,System.String,BDeshi.Logging.LogPriority)
+  href: api/BDeshi.Logging.ICategoryLogger-1.html#BDeshi_Logging_ICategoryLogger_1_LogError__0_System_String_BDeshi_Logging_LogPriority_
+  commentId: M:BDeshi.Logging.ICategoryLogger`1.LogError(`0,System.String,BDeshi.Logging.LogPriority)
   name.vb: LogError(TLogCategory, String, LogPriority)
-  fullName: BDeshi.Logging.CustomLogger<TLogCategory>.LogError(TLogCategory, string, BDeshi.Logging.LogPriority)
-  fullName.vb: BDeshi.Logging.CustomLogger(Of TLogCategory).LogError(TLogCategory, String, BDeshi.Logging.LogPriority)
-  nameWithType: CustomLogger<TLogCategory>.LogError(TLogCategory, string, LogPriority)
-  nameWithType.vb: CustomLogger(Of TLogCategory).LogError(TLogCategory, String, LogPriority)
-- uid: BDeshi.Logging.CustomLogger`1.LogError(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)
+  fullName: BDeshi.Logging.ICategoryLogger<TLogCategory>.LogError(TLogCategory, string, BDeshi.Logging.LogPriority)
+  fullName.vb: BDeshi.Logging.ICategoryLogger(Of TLogCategory).LogError(TLogCategory, String, BDeshi.Logging.LogPriority)
+  nameWithType: ICategoryLogger<TLogCategory>.LogError(TLogCategory, string, LogPriority)
+  nameWithType.vb: ICategoryLogger(Of TLogCategory).LogError(TLogCategory, String, LogPriority)
+- uid: BDeshi.Logging.ICategoryLogger`1.LogError(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)
   name: LogError(TLogCategory, string, Object, LogPriority)
-  href: api/BDeshi.Logging.CustomLogger-1.html#BDeshi_Logging_CustomLogger_1_LogError__0_System_String_UnityEngine_Object_BDeshi_Logging_LogPriority_
-  commentId: M:BDeshi.Logging.CustomLogger`1.LogError(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)
+  href: api/BDeshi.Logging.ICategoryLogger-1.html#BDeshi_Logging_ICategoryLogger_1_LogError__0_System_String_UnityEngine_Object_BDeshi_Logging_LogPriority_
+  commentId: M:BDeshi.Logging.ICategoryLogger`1.LogError(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)
   name.vb: LogError(TLogCategory, String, Object, LogPriority)
-  fullName: BDeshi.Logging.CustomLogger<TLogCategory>.LogError(TLogCategory, string, UnityEngine.Object, BDeshi.Logging.LogPriority)
-  fullName.vb: BDeshi.Logging.CustomLogger(Of TLogCategory).LogError(TLogCategory, String, UnityEngine.Object, BDeshi.Logging.LogPriority)
-  nameWithType: CustomLogger<TLogCategory>.LogError(TLogCategory, string, UnityEngine.Object, LogPriority)
-  nameWithType.vb: CustomLogger(Of TLogCategory).LogError(TLogCategory, String, UnityEngine.Object, LogPriority)
-- uid: BDeshi.Logging.CustomLogger`1.LogError*
+  fullName: BDeshi.Logging.ICategoryLogger<TLogCategory>.LogError(TLogCategory, string, UnityEngine.Object, BDeshi.Logging.LogPriority)
+  fullName.vb: BDeshi.Logging.ICategoryLogger(Of TLogCategory).LogError(TLogCategory, String, UnityEngine.Object, BDeshi.Logging.LogPriority)
+  nameWithType: ICategoryLogger<TLogCategory>.LogError(TLogCategory, string, UnityEngine.Object, LogPriority)
+  nameWithType.vb: ICategoryLogger(Of TLogCategory).LogError(TLogCategory, String, UnityEngine.Object, LogPriority)
+- uid: BDeshi.Logging.ICategoryLogger`1.LogError*
   name: LogError
-  href: api/BDeshi.Logging.CustomLogger-1.html#BDeshi_Logging_CustomLogger_1_LogError_
-  commentId: Overload:BDeshi.Logging.CustomLogger`1.LogError
+  href: api/BDeshi.Logging.ICategoryLogger-1.html#BDeshi_Logging_ICategoryLogger_1_LogError_
+  commentId: Overload:BDeshi.Logging.ICategoryLogger`1.LogError
   isSpec: "True"
-  fullName: BDeshi.Logging.CustomLogger<TLogCategory>.LogError
-  fullName.vb: BDeshi.Logging.CustomLogger(Of TLogCategory).LogError
-  nameWithType: CustomLogger<TLogCategory>.LogError
-  nameWithType.vb: CustomLogger(Of TLogCategory).LogError
-- uid: BDeshi.Logging.CustomLogger`1.LogWarning(`0,System.String,BDeshi.Logging.LogPriority)
+  fullName: BDeshi.Logging.ICategoryLogger<TLogCategory>.LogError
+  fullName.vb: BDeshi.Logging.ICategoryLogger(Of TLogCategory).LogError
+  nameWithType: ICategoryLogger<TLogCategory>.LogError
+  nameWithType.vb: ICategoryLogger(Of TLogCategory).LogError
+- uid: BDeshi.Logging.ICategoryLogger`1.LogWarning(`0,System.String,BDeshi.Logging.LogPriority)
   name: LogWarning(TLogCategory, string, LogPriority)
-  href: api/BDeshi.Logging.CustomLogger-1.html#BDeshi_Logging_CustomLogger_1_LogWarning__0_System_String_BDeshi_Logging_LogPriority_
-  commentId: M:BDeshi.Logging.CustomLogger`1.LogWarning(`0,System.String,BDeshi.Logging.LogPriority)
+  href: api/BDeshi.Logging.ICategoryLogger-1.html#BDeshi_Logging_ICategoryLogger_1_LogWarning__0_System_String_BDeshi_Logging_LogPriority_
+  commentId: M:BDeshi.Logging.ICategoryLogger`1.LogWarning(`0,System.String,BDeshi.Logging.LogPriority)
   name.vb: LogWarning(TLogCategory, String, LogPriority)
-  fullName: BDeshi.Logging.CustomLogger<TLogCategory>.LogWarning(TLogCategory, string, BDeshi.Logging.LogPriority)
-  fullName.vb: BDeshi.Logging.CustomLogger(Of TLogCategory).LogWarning(TLogCategory, String, BDeshi.Logging.LogPriority)
-  nameWithType: CustomLogger<TLogCategory>.LogWarning(TLogCategory, string, LogPriority)
-  nameWithType.vb: CustomLogger(Of TLogCategory).LogWarning(TLogCategory, String, LogPriority)
-- uid: BDeshi.Logging.CustomLogger`1.LogWarning(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)
+  fullName: BDeshi.Logging.ICategoryLogger<TLogCategory>.LogWarning(TLogCategory, string, BDeshi.Logging.LogPriority)
+  fullName.vb: BDeshi.Logging.ICategoryLogger(Of TLogCategory).LogWarning(TLogCategory, String, BDeshi.Logging.LogPriority)
+  nameWithType: ICategoryLogger<TLogCategory>.LogWarning(TLogCategory, string, LogPriority)
+  nameWithType.vb: ICategoryLogger(Of TLogCategory).LogWarning(TLogCategory, String, LogPriority)
+- uid: BDeshi.Logging.ICategoryLogger`1.LogWarning(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)
   name: LogWarning(TLogCategory, string, Object, LogPriority)
-  href: api/BDeshi.Logging.CustomLogger-1.html#BDeshi_Logging_CustomLogger_1_LogWarning__0_System_String_UnityEngine_Object_BDeshi_Logging_LogPriority_
-  commentId: M:BDeshi.Logging.CustomLogger`1.LogWarning(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)
+  href: api/BDeshi.Logging.ICategoryLogger-1.html#BDeshi_Logging_ICategoryLogger_1_LogWarning__0_System_String_UnityEngine_Object_BDeshi_Logging_LogPriority_
+  commentId: M:BDeshi.Logging.ICategoryLogger`1.LogWarning(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)
   name.vb: LogWarning(TLogCategory, String, Object, LogPriority)
-  fullName: BDeshi.Logging.CustomLogger<TLogCategory>.LogWarning(TLogCategory, string, UnityEngine.Object, BDeshi.Logging.LogPriority)
-  fullName.vb: BDeshi.Logging.CustomLogger(Of TLogCategory).LogWarning(TLogCategory, String, UnityEngine.Object, BDeshi.Logging.LogPriority)
-  nameWithType: CustomLogger<TLogCategory>.LogWarning(TLogCategory, string, UnityEngine.Object, LogPriority)
-  nameWithType.vb: CustomLogger(Of TLogCategory).LogWarning(TLogCategory, String, UnityEngine.Object, LogPriority)
-- uid: BDeshi.Logging.CustomLogger`1.LogWarning*
+  fullName: BDeshi.Logging.ICategoryLogger<TLogCategory>.LogWarning(TLogCategory, string, UnityEngine.Object, BDeshi.Logging.LogPriority)
+  fullName.vb: BDeshi.Logging.ICategoryLogger(Of TLogCategory).LogWarning(TLogCategory, String, UnityEngine.Object, BDeshi.Logging.LogPriority)
+  nameWithType: ICategoryLogger<TLogCategory>.LogWarning(TLogCategory, string, UnityEngine.Object, LogPriority)
+  nameWithType.vb: ICategoryLogger(Of TLogCategory).LogWarning(TLogCategory, String, UnityEngine.Object, LogPriority)
+- uid: BDeshi.Logging.ICategoryLogger`1.LogWarning*
   name: LogWarning
-  href: api/BDeshi.Logging.CustomLogger-1.html#BDeshi_Logging_CustomLogger_1_LogWarning_
-  commentId: Overload:BDeshi.Logging.CustomLogger`1.LogWarning
+  href: api/BDeshi.Logging.ICategoryLogger-1.html#BDeshi_Logging_ICategoryLogger_1_LogWarning_
+  commentId: Overload:BDeshi.Logging.ICategoryLogger`1.LogWarning
   isSpec: "True"
-  fullName: BDeshi.Logging.CustomLogger<TLogCategory>.LogWarning
-  fullName.vb: BDeshi.Logging.CustomLogger(Of TLogCategory).LogWarning
-  nameWithType: CustomLogger<TLogCategory>.LogWarning
-  nameWithType.vb: CustomLogger(Of TLogCategory).LogWarning
-- uid: BDeshi.Logging.CustomLogger`1.MinLogPriority
-  name: MinLogPriority
-  href: api/BDeshi.Logging.CustomLogger-1.html#BDeshi_Logging_CustomLogger_1_MinLogPriority
-  commentId: F:BDeshi.Logging.CustomLogger`1.MinLogPriority
-  fullName: BDeshi.Logging.CustomLogger<TLogCategory>.MinLogPriority
-  fullName.vb: BDeshi.Logging.CustomLogger(Of TLogCategory).MinLogPriority
-  nameWithType: CustomLogger<TLogCategory>.MinLogPriority
-  nameWithType.vb: CustomLogger(Of TLogCategory).MinLogPriority
-- uid: BDeshi.Logging.CustomLogger`1.Prefix
-  name: Prefix
-  href: api/BDeshi.Logging.CustomLogger-1.html#BDeshi_Logging_CustomLogger_1_Prefix
-  commentId: F:BDeshi.Logging.CustomLogger`1.Prefix
-  fullName: BDeshi.Logging.CustomLogger<TLogCategory>.Prefix
-  fullName.vb: BDeshi.Logging.CustomLogger(Of TLogCategory).Prefix
-  nameWithType: CustomLogger<TLogCategory>.Prefix
-  nameWithType.vb: CustomLogger(Of TLogCategory).Prefix
-- uid: BDeshi.Logging.ISubLoggerMixin`1
-  name: ISubLoggerMixin<TLogCategory>
-  href: api/BDeshi.Logging.ISubLoggerMixin-1.html
-  commentId: T:BDeshi.Logging.ISubLoggerMixin`1
-  name.vb: ISubLoggerMixin(Of TLogCategory)
-  fullName: BDeshi.Logging.ISubLoggerMixin<TLogCategory>
-  fullName.vb: BDeshi.Logging.ISubLoggerMixin(Of TLogCategory)
-  nameWithType: ISubLoggerMixin<TLogCategory>
-  nameWithType.vb: ISubLoggerMixin(Of TLogCategory)
-- uid: BDeshi.Logging.ISubLoggerMixin`1.Category
+  fullName: BDeshi.Logging.ICategoryLogger<TLogCategory>.LogWarning
+  fullName.vb: BDeshi.Logging.ICategoryLogger(Of TLogCategory).LogWarning
+  nameWithType: ICategoryLogger<TLogCategory>.LogWarning
+  nameWithType.vb: ICategoryLogger(Of TLogCategory).LogWarning
+- uid: BDeshi.Logging.ISubCategoryLoggerMixin`1
+  name: ISubCategoryLoggerMixin<TLogCategory>
+  href: api/BDeshi.Logging.ISubCategoryLoggerMixin-1.html
+  commentId: T:BDeshi.Logging.ISubCategoryLoggerMixin`1
+  name.vb: ISubCategoryLoggerMixin(Of TLogCategory)
+  fullName: BDeshi.Logging.ISubCategoryLoggerMixin<TLogCategory>
+  fullName.vb: BDeshi.Logging.ISubCategoryLoggerMixin(Of TLogCategory)
+  nameWithType: ISubCategoryLoggerMixin<TLogCategory>
+  nameWithType.vb: ISubCategoryLoggerMixin(Of TLogCategory)
+- uid: BDeshi.Logging.ISubCategoryLoggerMixin`1.Category
   name: Category
-  href: api/BDeshi.Logging.ISubLoggerMixin-1.html#BDeshi_Logging_ISubLoggerMixin_1_Category
-  commentId: P:BDeshi.Logging.ISubLoggerMixin`1.Category
-  fullName: BDeshi.Logging.ISubLoggerMixin<TLogCategory>.Category
-  fullName.vb: BDeshi.Logging.ISubLoggerMixin(Of TLogCategory).Category
-  nameWithType: ISubLoggerMixin<TLogCategory>.Category
-  nameWithType.vb: ISubLoggerMixin(Of TLogCategory).Category
-- uid: BDeshi.Logging.ISubLoggerMixin`1.Category*
+  href: api/BDeshi.Logging.ISubCategoryLoggerMixin-1.html#BDeshi_Logging_ISubCategoryLoggerMixin_1_Category
+  commentId: P:BDeshi.Logging.ISubCategoryLoggerMixin`1.Category
+  fullName: BDeshi.Logging.ISubCategoryLoggerMixin<TLogCategory>.Category
+  fullName.vb: BDeshi.Logging.ISubCategoryLoggerMixin(Of TLogCategory).Category
+  nameWithType: ISubCategoryLoggerMixin<TLogCategory>.Category
+  nameWithType.vb: ISubCategoryLoggerMixin(Of TLogCategory).Category
+- uid: BDeshi.Logging.ISubCategoryLoggerMixin`1.Category*
   name: Category
-  href: api/BDeshi.Logging.ISubLoggerMixin-1.html#BDeshi_Logging_ISubLoggerMixin_1_Category_
-  commentId: Overload:BDeshi.Logging.ISubLoggerMixin`1.Category
+  href: api/BDeshi.Logging.ISubCategoryLoggerMixin-1.html#BDeshi_Logging_ISubCategoryLoggerMixin_1_Category_
+  commentId: Overload:BDeshi.Logging.ISubCategoryLoggerMixin`1.Category
   isSpec: "True"
-  fullName: BDeshi.Logging.ISubLoggerMixin<TLogCategory>.Category
-  fullName.vb: BDeshi.Logging.ISubLoggerMixin(Of TLogCategory).Category
-  nameWithType: ISubLoggerMixin<TLogCategory>.Category
-  nameWithType.vb: ISubLoggerMixin(Of TLogCategory).Category
-- uid: BDeshi.Logging.ISubLoggerMixin`1.Logger
+  fullName: BDeshi.Logging.ISubCategoryLoggerMixin<TLogCategory>.Category
+  fullName.vb: BDeshi.Logging.ISubCategoryLoggerMixin(Of TLogCategory).Category
+  nameWithType: ISubCategoryLoggerMixin<TLogCategory>.Category
+  nameWithType.vb: ISubCategoryLoggerMixin(Of TLogCategory).Category
+- uid: BDeshi.Logging.ISubCategoryLoggerMixin`1.Logger
   name: Logger
-  href: api/BDeshi.Logging.ISubLoggerMixin-1.html#BDeshi_Logging_ISubLoggerMixin_1_Logger
-  commentId: P:BDeshi.Logging.ISubLoggerMixin`1.Logger
-  fullName: BDeshi.Logging.ISubLoggerMixin<TLogCategory>.Logger
-  fullName.vb: BDeshi.Logging.ISubLoggerMixin(Of TLogCategory).Logger
-  nameWithType: ISubLoggerMixin<TLogCategory>.Logger
-  nameWithType.vb: ISubLoggerMixin(Of TLogCategory).Logger
-- uid: BDeshi.Logging.ISubLoggerMixin`1.Logger*
+  href: api/BDeshi.Logging.ISubCategoryLoggerMixin-1.html#BDeshi_Logging_ISubCategoryLoggerMixin_1_Logger
+  commentId: P:BDeshi.Logging.ISubCategoryLoggerMixin`1.Logger
+  fullName: BDeshi.Logging.ISubCategoryLoggerMixin<TLogCategory>.Logger
+  fullName.vb: BDeshi.Logging.ISubCategoryLoggerMixin(Of TLogCategory).Logger
+  nameWithType: ISubCategoryLoggerMixin<TLogCategory>.Logger
+  nameWithType.vb: ISubCategoryLoggerMixin(Of TLogCategory).Logger
+- uid: BDeshi.Logging.ISubCategoryLoggerMixin`1.Logger*
   name: Logger
-  href: api/BDeshi.Logging.ISubLoggerMixin-1.html#BDeshi_Logging_ISubLoggerMixin_1_Logger_
-  commentId: Overload:BDeshi.Logging.ISubLoggerMixin`1.Logger
+  href: api/BDeshi.Logging.ISubCategoryLoggerMixin-1.html#BDeshi_Logging_ISubCategoryLoggerMixin_1_Logger_
+  commentId: Overload:BDeshi.Logging.ISubCategoryLoggerMixin`1.Logger
   isSpec: "True"
-  fullName: BDeshi.Logging.ISubLoggerMixin<TLogCategory>.Logger
-  fullName.vb: BDeshi.Logging.ISubLoggerMixin(Of TLogCategory).Logger
-  nameWithType: ISubLoggerMixin<TLogCategory>.Logger
-  nameWithType.vb: ISubLoggerMixin(Of TLogCategory).Logger
-- uid: BDeshi.Logging.ISubLoggerMixin`1.gameObject
+  fullName: BDeshi.Logging.ISubCategoryLoggerMixin<TLogCategory>.Logger
+  fullName.vb: BDeshi.Logging.ISubCategoryLoggerMixin(Of TLogCategory).Logger
+  nameWithType: ISubCategoryLoggerMixin<TLogCategory>.Logger
+  nameWithType.vb: ISubCategoryLoggerMixin(Of TLogCategory).Logger
+- uid: BDeshi.Logging.ISubCategoryLoggerMixin`1.gameObject
   name: gameObject
-  href: api/BDeshi.Logging.ISubLoggerMixin-1.html#BDeshi_Logging_ISubLoggerMixin_1_gameObject
-  commentId: P:BDeshi.Logging.ISubLoggerMixin`1.gameObject
-  fullName: BDeshi.Logging.ISubLoggerMixin<TLogCategory>.gameObject
-  fullName.vb: BDeshi.Logging.ISubLoggerMixin(Of TLogCategory).gameObject
-  nameWithType: ISubLoggerMixin<TLogCategory>.gameObject
-  nameWithType.vb: ISubLoggerMixin(Of TLogCategory).gameObject
-- uid: BDeshi.Logging.ISubLoggerMixin`1.gameObject*
+  href: api/BDeshi.Logging.ISubCategoryLoggerMixin-1.html#BDeshi_Logging_ISubCategoryLoggerMixin_1_gameObject
+  commentId: P:BDeshi.Logging.ISubCategoryLoggerMixin`1.gameObject
+  fullName: BDeshi.Logging.ISubCategoryLoggerMixin<TLogCategory>.gameObject
+  fullName.vb: BDeshi.Logging.ISubCategoryLoggerMixin(Of TLogCategory).gameObject
+  nameWithType: ISubCategoryLoggerMixin<TLogCategory>.gameObject
+  nameWithType.vb: ISubCategoryLoggerMixin(Of TLogCategory).gameObject
+- uid: BDeshi.Logging.ISubCategoryLoggerMixin`1.gameObject*
   name: gameObject
-  href: api/BDeshi.Logging.ISubLoggerMixin-1.html#BDeshi_Logging_ISubLoggerMixin_1_gameObject_
-  commentId: Overload:BDeshi.Logging.ISubLoggerMixin`1.gameObject
+  href: api/BDeshi.Logging.ISubCategoryLoggerMixin-1.html#BDeshi_Logging_ISubCategoryLoggerMixin_1_gameObject_
+  commentId: Overload:BDeshi.Logging.ISubCategoryLoggerMixin`1.gameObject
   isSpec: "True"
-  fullName: BDeshi.Logging.ISubLoggerMixin<TLogCategory>.gameObject
-  fullName.vb: BDeshi.Logging.ISubLoggerMixin(Of TLogCategory).gameObject
-  nameWithType: ISubLoggerMixin<TLogCategory>.gameObject
-  nameWithType.vb: ISubLoggerMixin(Of TLogCategory).gameObject
+  fullName: BDeshi.Logging.ISubCategoryLoggerMixin<TLogCategory>.gameObject
+  fullName.vb: BDeshi.Logging.ISubCategoryLoggerMixin(Of TLogCategory).gameObject
+  nameWithType: ISubCategoryLoggerMixin<TLogCategory>.gameObject
+  nameWithType.vb: ISubCategoryLoggerMixin(Of TLogCategory).gameObject
 - uid: BDeshi.Logging.LogPriority
   name: LogPriority
   href: api/BDeshi.Logging.LogPriority.html
@@ -354,24 +303,24 @@ references:
   isSpec: "True"
   fullName: BDeshi.Logging.LoggingExtensions.LogError
   nameWithType: LoggingExtensions.LogError
-- uid: BDeshi.Logging.LoggingExtensions.LogError``1(BDeshi.Logging.ISubLoggerMixin{``0},System.String,BDeshi.Logging.LogPriority)
-  name: LogError<TLogCategory>(ISubLoggerMixin<TLogCategory>, string, LogPriority)
-  href: api/BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_LogError__1_BDeshi_Logging_ISubLoggerMixin___0__System_String_BDeshi_Logging_LogPriority_
-  commentId: M:BDeshi.Logging.LoggingExtensions.LogError``1(BDeshi.Logging.ISubLoggerMixin{``0},System.String,BDeshi.Logging.LogPriority)
-  name.vb: LogError(Of TLogCategory)(ISubLoggerMixin(Of TLogCategory), String, LogPriority)
-  fullName: BDeshi.Logging.LoggingExtensions.LogError<TLogCategory>(BDeshi.Logging.ISubLoggerMixin<TLogCategory>, string, BDeshi.Logging.LogPriority)
-  fullName.vb: BDeshi.Logging.LoggingExtensions.LogError(Of TLogCategory)(BDeshi.Logging.ISubLoggerMixin(Of TLogCategory), String, BDeshi.Logging.LogPriority)
-  nameWithType: LoggingExtensions.LogError<TLogCategory>(ISubLoggerMixin<TLogCategory>, string, LogPriority)
-  nameWithType.vb: LoggingExtensions.LogError(Of TLogCategory)(ISubLoggerMixin(Of TLogCategory), String, LogPriority)
-- uid: BDeshi.Logging.LoggingExtensions.LogError``1(BDeshi.Logging.ISubLoggerMixin{``0},System.String,``0,BDeshi.Logging.LogPriority)
-  name: LogError<TLogCategory>(ISubLoggerMixin<TLogCategory>, string, TLogCategory, LogPriority)
-  href: api/BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_LogError__1_BDeshi_Logging_ISubLoggerMixin___0__System_String___0_BDeshi_Logging_LogPriority_
-  commentId: M:BDeshi.Logging.LoggingExtensions.LogError``1(BDeshi.Logging.ISubLoggerMixin{``0},System.String,``0,BDeshi.Logging.LogPriority)
-  name.vb: LogError(Of TLogCategory)(ISubLoggerMixin(Of TLogCategory), String, TLogCategory, LogPriority)
-  fullName: BDeshi.Logging.LoggingExtensions.LogError<TLogCategory>(BDeshi.Logging.ISubLoggerMixin<TLogCategory>, string, TLogCategory, BDeshi.Logging.LogPriority)
-  fullName.vb: BDeshi.Logging.LoggingExtensions.LogError(Of TLogCategory)(BDeshi.Logging.ISubLoggerMixin(Of TLogCategory), String, TLogCategory, BDeshi.Logging.LogPriority)
-  nameWithType: LoggingExtensions.LogError<TLogCategory>(ISubLoggerMixin<TLogCategory>, string, TLogCategory, LogPriority)
-  nameWithType.vb: LoggingExtensions.LogError(Of TLogCategory)(ISubLoggerMixin(Of TLogCategory), String, TLogCategory, LogPriority)
+- uid: BDeshi.Logging.LoggingExtensions.LogError``1(BDeshi.Logging.ISubCategoryLoggerMixin{``0},System.String,BDeshi.Logging.LogPriority)
+  name: LogError<TLogCategory>(ISubCategoryLoggerMixin<TLogCategory>, string, LogPriority)
+  href: api/BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_LogError__1_BDeshi_Logging_ISubCategoryLoggerMixin___0__System_String_BDeshi_Logging_LogPriority_
+  commentId: M:BDeshi.Logging.LoggingExtensions.LogError``1(BDeshi.Logging.ISubCategoryLoggerMixin{``0},System.String,BDeshi.Logging.LogPriority)
+  name.vb: LogError(Of TLogCategory)(ISubCategoryLoggerMixin(Of TLogCategory), String, LogPriority)
+  fullName: BDeshi.Logging.LoggingExtensions.LogError<TLogCategory>(BDeshi.Logging.ISubCategoryLoggerMixin<TLogCategory>, string, BDeshi.Logging.LogPriority)
+  fullName.vb: BDeshi.Logging.LoggingExtensions.LogError(Of TLogCategory)(BDeshi.Logging.ISubCategoryLoggerMixin(Of TLogCategory), String, BDeshi.Logging.LogPriority)
+  nameWithType: LoggingExtensions.LogError<TLogCategory>(ISubCategoryLoggerMixin<TLogCategory>, string, LogPriority)
+  nameWithType.vb: LoggingExtensions.LogError(Of TLogCategory)(ISubCategoryLoggerMixin(Of TLogCategory), String, LogPriority)
+- uid: BDeshi.Logging.LoggingExtensions.LogError``1(BDeshi.Logging.ISubCategoryLoggerMixin{``0},System.String,``0,BDeshi.Logging.LogPriority)
+  name: LogError<TLogCategory>(ISubCategoryLoggerMixin<TLogCategory>, string, TLogCategory, LogPriority)
+  href: api/BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_LogError__1_BDeshi_Logging_ISubCategoryLoggerMixin___0__System_String___0_BDeshi_Logging_LogPriority_
+  commentId: M:BDeshi.Logging.LoggingExtensions.LogError``1(BDeshi.Logging.ISubCategoryLoggerMixin{``0},System.String,``0,BDeshi.Logging.LogPriority)
+  name.vb: LogError(Of TLogCategory)(ISubCategoryLoggerMixin(Of TLogCategory), String, TLogCategory, LogPriority)
+  fullName: BDeshi.Logging.LoggingExtensions.LogError<TLogCategory>(BDeshi.Logging.ISubCategoryLoggerMixin<TLogCategory>, string, TLogCategory, BDeshi.Logging.LogPriority)
+  fullName.vb: BDeshi.Logging.LoggingExtensions.LogError(Of TLogCategory)(BDeshi.Logging.ISubCategoryLoggerMixin(Of TLogCategory), String, TLogCategory, BDeshi.Logging.LogPriority)
+  nameWithType: LoggingExtensions.LogError<TLogCategory>(ISubCategoryLoggerMixin<TLogCategory>, string, TLogCategory, LogPriority)
+  nameWithType.vb: LoggingExtensions.LogError(Of TLogCategory)(ISubCategoryLoggerMixin(Of TLogCategory), String, TLogCategory, LogPriority)
 - uid: BDeshi.Logging.LoggingExtensions.LogWarning*
   name: LogWarning
   href: api/BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_LogWarning_
@@ -379,42 +328,42 @@ references:
   isSpec: "True"
   fullName: BDeshi.Logging.LoggingExtensions.LogWarning
   nameWithType: LoggingExtensions.LogWarning
-- uid: BDeshi.Logging.LoggingExtensions.LogWarning``1(BDeshi.Logging.ISubLoggerMixin{``0},System.String,BDeshi.Logging.LogPriority)
-  name: LogWarning<TLogCategory>(ISubLoggerMixin<TLogCategory>, string, LogPriority)
-  href: api/BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_LogWarning__1_BDeshi_Logging_ISubLoggerMixin___0__System_String_BDeshi_Logging_LogPriority_
-  commentId: M:BDeshi.Logging.LoggingExtensions.LogWarning``1(BDeshi.Logging.ISubLoggerMixin{``0},System.String,BDeshi.Logging.LogPriority)
-  name.vb: LogWarning(Of TLogCategory)(ISubLoggerMixin(Of TLogCategory), String, LogPriority)
-  fullName: BDeshi.Logging.LoggingExtensions.LogWarning<TLogCategory>(BDeshi.Logging.ISubLoggerMixin<TLogCategory>, string, BDeshi.Logging.LogPriority)
-  fullName.vb: BDeshi.Logging.LoggingExtensions.LogWarning(Of TLogCategory)(BDeshi.Logging.ISubLoggerMixin(Of TLogCategory), String, BDeshi.Logging.LogPriority)
-  nameWithType: LoggingExtensions.LogWarning<TLogCategory>(ISubLoggerMixin<TLogCategory>, string, LogPriority)
-  nameWithType.vb: LoggingExtensions.LogWarning(Of TLogCategory)(ISubLoggerMixin(Of TLogCategory), String, LogPriority)
-- uid: BDeshi.Logging.LoggingExtensions.LogWarning``1(BDeshi.Logging.ISubLoggerMixin{``0},System.String,``0,BDeshi.Logging.LogPriority)
-  name: LogWarning<TLogCategory>(ISubLoggerMixin<TLogCategory>, string, TLogCategory, LogPriority)
-  href: api/BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_LogWarning__1_BDeshi_Logging_ISubLoggerMixin___0__System_String___0_BDeshi_Logging_LogPriority_
-  commentId: M:BDeshi.Logging.LoggingExtensions.LogWarning``1(BDeshi.Logging.ISubLoggerMixin{``0},System.String,``0,BDeshi.Logging.LogPriority)
-  name.vb: LogWarning(Of TLogCategory)(ISubLoggerMixin(Of TLogCategory), String, TLogCategory, LogPriority)
-  fullName: BDeshi.Logging.LoggingExtensions.LogWarning<TLogCategory>(BDeshi.Logging.ISubLoggerMixin<TLogCategory>, string, TLogCategory, BDeshi.Logging.LogPriority)
-  fullName.vb: BDeshi.Logging.LoggingExtensions.LogWarning(Of TLogCategory)(BDeshi.Logging.ISubLoggerMixin(Of TLogCategory), String, TLogCategory, BDeshi.Logging.LogPriority)
-  nameWithType: LoggingExtensions.LogWarning<TLogCategory>(ISubLoggerMixin<TLogCategory>, string, TLogCategory, LogPriority)
-  nameWithType.vb: LoggingExtensions.LogWarning(Of TLogCategory)(ISubLoggerMixin(Of TLogCategory), String, TLogCategory, LogPriority)
-- uid: BDeshi.Logging.LoggingExtensions.Log``1(BDeshi.Logging.ISubLoggerMixin{``0},System.String,BDeshi.Logging.LogPriority)
-  name: Log<TLogCategory>(ISubLoggerMixin<TLogCategory>, string, LogPriority)
-  href: api/BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_Log__1_BDeshi_Logging_ISubLoggerMixin___0__System_String_BDeshi_Logging_LogPriority_
-  commentId: M:BDeshi.Logging.LoggingExtensions.Log``1(BDeshi.Logging.ISubLoggerMixin{``0},System.String,BDeshi.Logging.LogPriority)
-  name.vb: Log(Of TLogCategory)(ISubLoggerMixin(Of TLogCategory), String, LogPriority)
-  fullName: BDeshi.Logging.LoggingExtensions.Log<TLogCategory>(BDeshi.Logging.ISubLoggerMixin<TLogCategory>, string, BDeshi.Logging.LogPriority)
-  fullName.vb: BDeshi.Logging.LoggingExtensions.Log(Of TLogCategory)(BDeshi.Logging.ISubLoggerMixin(Of TLogCategory), String, BDeshi.Logging.LogPriority)
-  nameWithType: LoggingExtensions.Log<TLogCategory>(ISubLoggerMixin<TLogCategory>, string, LogPriority)
-  nameWithType.vb: LoggingExtensions.Log(Of TLogCategory)(ISubLoggerMixin(Of TLogCategory), String, LogPriority)
-- uid: BDeshi.Logging.LoggingExtensions.Log``1(BDeshi.Logging.ISubLoggerMixin{``0},System.String,``0,BDeshi.Logging.LogPriority)
-  name: Log<TLogCategory>(ISubLoggerMixin<TLogCategory>, string, TLogCategory, LogPriority)
-  href: api/BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_Log__1_BDeshi_Logging_ISubLoggerMixin___0__System_String___0_BDeshi_Logging_LogPriority_
-  commentId: M:BDeshi.Logging.LoggingExtensions.Log``1(BDeshi.Logging.ISubLoggerMixin{``0},System.String,``0,BDeshi.Logging.LogPriority)
-  name.vb: Log(Of TLogCategory)(ISubLoggerMixin(Of TLogCategory), String, TLogCategory, LogPriority)
-  fullName: BDeshi.Logging.LoggingExtensions.Log<TLogCategory>(BDeshi.Logging.ISubLoggerMixin<TLogCategory>, string, TLogCategory, BDeshi.Logging.LogPriority)
-  fullName.vb: BDeshi.Logging.LoggingExtensions.Log(Of TLogCategory)(BDeshi.Logging.ISubLoggerMixin(Of TLogCategory), String, TLogCategory, BDeshi.Logging.LogPriority)
-  nameWithType: LoggingExtensions.Log<TLogCategory>(ISubLoggerMixin<TLogCategory>, string, TLogCategory, LogPriority)
-  nameWithType.vb: LoggingExtensions.Log(Of TLogCategory)(ISubLoggerMixin(Of TLogCategory), String, TLogCategory, LogPriority)
+- uid: BDeshi.Logging.LoggingExtensions.LogWarning``1(BDeshi.Logging.ISubCategoryLoggerMixin{``0},System.String,BDeshi.Logging.LogPriority)
+  name: LogWarning<TLogCategory>(ISubCategoryLoggerMixin<TLogCategory>, string, LogPriority)
+  href: api/BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_LogWarning__1_BDeshi_Logging_ISubCategoryLoggerMixin___0__System_String_BDeshi_Logging_LogPriority_
+  commentId: M:BDeshi.Logging.LoggingExtensions.LogWarning``1(BDeshi.Logging.ISubCategoryLoggerMixin{``0},System.String,BDeshi.Logging.LogPriority)
+  name.vb: LogWarning(Of TLogCategory)(ISubCategoryLoggerMixin(Of TLogCategory), String, LogPriority)
+  fullName: BDeshi.Logging.LoggingExtensions.LogWarning<TLogCategory>(BDeshi.Logging.ISubCategoryLoggerMixin<TLogCategory>, string, BDeshi.Logging.LogPriority)
+  fullName.vb: BDeshi.Logging.LoggingExtensions.LogWarning(Of TLogCategory)(BDeshi.Logging.ISubCategoryLoggerMixin(Of TLogCategory), String, BDeshi.Logging.LogPriority)
+  nameWithType: LoggingExtensions.LogWarning<TLogCategory>(ISubCategoryLoggerMixin<TLogCategory>, string, LogPriority)
+  nameWithType.vb: LoggingExtensions.LogWarning(Of TLogCategory)(ISubCategoryLoggerMixin(Of TLogCategory), String, LogPriority)
+- uid: BDeshi.Logging.LoggingExtensions.LogWarning``1(BDeshi.Logging.ISubCategoryLoggerMixin{``0},System.String,``0,BDeshi.Logging.LogPriority)
+  name: LogWarning<TLogCategory>(ISubCategoryLoggerMixin<TLogCategory>, string, TLogCategory, LogPriority)
+  href: api/BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_LogWarning__1_BDeshi_Logging_ISubCategoryLoggerMixin___0__System_String___0_BDeshi_Logging_LogPriority_
+  commentId: M:BDeshi.Logging.LoggingExtensions.LogWarning``1(BDeshi.Logging.ISubCategoryLoggerMixin{``0},System.String,``0,BDeshi.Logging.LogPriority)
+  name.vb: LogWarning(Of TLogCategory)(ISubCategoryLoggerMixin(Of TLogCategory), String, TLogCategory, LogPriority)
+  fullName: BDeshi.Logging.LoggingExtensions.LogWarning<TLogCategory>(BDeshi.Logging.ISubCategoryLoggerMixin<TLogCategory>, string, TLogCategory, BDeshi.Logging.LogPriority)
+  fullName.vb: BDeshi.Logging.LoggingExtensions.LogWarning(Of TLogCategory)(BDeshi.Logging.ISubCategoryLoggerMixin(Of TLogCategory), String, TLogCategory, BDeshi.Logging.LogPriority)
+  nameWithType: LoggingExtensions.LogWarning<TLogCategory>(ISubCategoryLoggerMixin<TLogCategory>, string, TLogCategory, LogPriority)
+  nameWithType.vb: LoggingExtensions.LogWarning(Of TLogCategory)(ISubCategoryLoggerMixin(Of TLogCategory), String, TLogCategory, LogPriority)
+- uid: BDeshi.Logging.LoggingExtensions.Log``1(BDeshi.Logging.ISubCategoryLoggerMixin{``0},System.String,BDeshi.Logging.LogPriority)
+  name: Log<TLogCategory>(ISubCategoryLoggerMixin<TLogCategory>, string, LogPriority)
+  href: api/BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_Log__1_BDeshi_Logging_ISubCategoryLoggerMixin___0__System_String_BDeshi_Logging_LogPriority_
+  commentId: M:BDeshi.Logging.LoggingExtensions.Log``1(BDeshi.Logging.ISubCategoryLoggerMixin{``0},System.String,BDeshi.Logging.LogPriority)
+  name.vb: Log(Of TLogCategory)(ISubCategoryLoggerMixin(Of TLogCategory), String, LogPriority)
+  fullName: BDeshi.Logging.LoggingExtensions.Log<TLogCategory>(BDeshi.Logging.ISubCategoryLoggerMixin<TLogCategory>, string, BDeshi.Logging.LogPriority)
+  fullName.vb: BDeshi.Logging.LoggingExtensions.Log(Of TLogCategory)(BDeshi.Logging.ISubCategoryLoggerMixin(Of TLogCategory), String, BDeshi.Logging.LogPriority)
+  nameWithType: LoggingExtensions.Log<TLogCategory>(ISubCategoryLoggerMixin<TLogCategory>, string, LogPriority)
+  nameWithType.vb: LoggingExtensions.Log(Of TLogCategory)(ISubCategoryLoggerMixin(Of TLogCategory), String, LogPriority)
+- uid: BDeshi.Logging.LoggingExtensions.Log``1(BDeshi.Logging.ISubCategoryLoggerMixin{``0},System.String,``0,BDeshi.Logging.LogPriority)
+  name: Log<TLogCategory>(ISubCategoryLoggerMixin<TLogCategory>, string, TLogCategory, LogPriority)
+  href: api/BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_Log__1_BDeshi_Logging_ISubCategoryLoggerMixin___0__System_String___0_BDeshi_Logging_LogPriority_
+  commentId: M:BDeshi.Logging.LoggingExtensions.Log``1(BDeshi.Logging.ISubCategoryLoggerMixin{``0},System.String,``0,BDeshi.Logging.LogPriority)
+  name.vb: Log(Of TLogCategory)(ISubCategoryLoggerMixin(Of TLogCategory), String, TLogCategory, LogPriority)
+  fullName: BDeshi.Logging.LoggingExtensions.Log<TLogCategory>(BDeshi.Logging.ISubCategoryLoggerMixin<TLogCategory>, string, TLogCategory, BDeshi.Logging.LogPriority)
+  fullName.vb: BDeshi.Logging.LoggingExtensions.Log(Of TLogCategory)(BDeshi.Logging.ISubCategoryLoggerMixin(Of TLogCategory), String, TLogCategory, BDeshi.Logging.LogPriority)
+  nameWithType: LoggingExtensions.Log<TLogCategory>(ISubCategoryLoggerMixin<TLogCategory>, string, TLogCategory, LogPriority)
+  nameWithType.vb: LoggingExtensions.Log(Of TLogCategory)(ISubCategoryLoggerMixin(Of TLogCategory), String, TLogCategory, LogPriority)
 - uid: BDeshi.Logging.LoggingExtensions.RedColored(System.String)
   name: RedColored(string)
   href: api/BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_RedColored_System_String_
@@ -431,6 +380,173 @@ references:
   isSpec: "True"
   fullName: BDeshi.Logging.LoggingExtensions.RedColored
   nameWithType: LoggingExtensions.RedColored
+- uid: BDeshi.Logging.SerializableCategoryLogger`1
+  name: SerializableCategoryLogger<TLogCategory>
+  href: api/BDeshi.Logging.SerializableCategoryLogger-1.html
+  commentId: T:BDeshi.Logging.SerializableCategoryLogger`1
+  name.vb: SerializableCategoryLogger(Of TLogCategory)
+  fullName: BDeshi.Logging.SerializableCategoryLogger<TLogCategory>
+  fullName.vb: BDeshi.Logging.SerializableCategoryLogger(Of TLogCategory)
+  nameWithType: SerializableCategoryLogger<TLogCategory>
+  nameWithType.vb: SerializableCategoryLogger(Of TLogCategory)
+- uid: BDeshi.Logging.SerializableCategoryLogger`1.#ctor(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)
+  name: SerializableCategoryLogger(TLogCategory, string, Object, LogPriority)
+  href: api/BDeshi.Logging.SerializableCategoryLogger-1.html#BDeshi_Logging_SerializableCategoryLogger_1__ctor__0_System_String_UnityEngine_Object_BDeshi_Logging_LogPriority_
+  commentId: M:BDeshi.Logging.SerializableCategoryLogger`1.#ctor(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)
+  name.vb: New(TLogCategory, String, Object, LogPriority)
+  fullName: BDeshi.Logging.SerializableCategoryLogger<TLogCategory>.SerializableCategoryLogger(TLogCategory, string, UnityEngine.Object, BDeshi.Logging.LogPriority)
+  fullName.vb: BDeshi.Logging.SerializableCategoryLogger(Of TLogCategory).New(TLogCategory, String, UnityEngine.Object, BDeshi.Logging.LogPriority)
+  nameWithType: SerializableCategoryLogger<TLogCategory>.SerializableCategoryLogger(TLogCategory, string, UnityEngine.Object, LogPriority)
+  nameWithType.vb: SerializableCategoryLogger(Of TLogCategory).New(TLogCategory, String, UnityEngine.Object, LogPriority)
+- uid: BDeshi.Logging.SerializableCategoryLogger`1.#ctor(`0,UnityEngine.Object,BDeshi.Logging.LogPriority)
+  name: SerializableCategoryLogger(TLogCategory, Object, LogPriority)
+  href: api/BDeshi.Logging.SerializableCategoryLogger-1.html#BDeshi_Logging_SerializableCategoryLogger_1__ctor__0_UnityEngine_Object_BDeshi_Logging_LogPriority_
+  commentId: M:BDeshi.Logging.SerializableCategoryLogger`1.#ctor(`0,UnityEngine.Object,BDeshi.Logging.LogPriority)
+  name.vb: New(TLogCategory, Object, LogPriority)
+  fullName: BDeshi.Logging.SerializableCategoryLogger<TLogCategory>.SerializableCategoryLogger(TLogCategory, UnityEngine.Object, BDeshi.Logging.LogPriority)
+  fullName.vb: BDeshi.Logging.SerializableCategoryLogger(Of TLogCategory).New(TLogCategory, UnityEngine.Object, BDeshi.Logging.LogPriority)
+  nameWithType: SerializableCategoryLogger<TLogCategory>.SerializableCategoryLogger(TLogCategory, UnityEngine.Object, LogPriority)
+  nameWithType.vb: SerializableCategoryLogger(Of TLogCategory).New(TLogCategory, UnityEngine.Object, LogPriority)
+- uid: BDeshi.Logging.SerializableCategoryLogger`1.#ctor*
+  name: SerializableCategoryLogger
+  href: api/BDeshi.Logging.SerializableCategoryLogger-1.html#BDeshi_Logging_SerializableCategoryLogger_1__ctor_
+  commentId: Overload:BDeshi.Logging.SerializableCategoryLogger`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BDeshi.Logging.SerializableCategoryLogger<TLogCategory>.SerializableCategoryLogger
+  fullName.vb: BDeshi.Logging.SerializableCategoryLogger(Of TLogCategory).New
+  nameWithType: SerializableCategoryLogger<TLogCategory>.SerializableCategoryLogger
+  nameWithType.vb: SerializableCategoryLogger(Of TLogCategory).New
+- uid: BDeshi.Logging.SerializableCategoryLogger`1.CategoryColor
+  name: CategoryColor
+  href: api/BDeshi.Logging.SerializableCategoryLogger-1.html#BDeshi_Logging_SerializableCategoryLogger_1_CategoryColor
+  commentId: F:BDeshi.Logging.SerializableCategoryLogger`1.CategoryColor
+  fullName: BDeshi.Logging.SerializableCategoryLogger<TLogCategory>.CategoryColor
+  fullName.vb: BDeshi.Logging.SerializableCategoryLogger(Of TLogCategory).CategoryColor
+  nameWithType: SerializableCategoryLogger<TLogCategory>.CategoryColor
+  nameWithType.vb: SerializableCategoryLogger(Of TLogCategory).CategoryColor
+- uid: BDeshi.Logging.SerializableCategoryLogger`1.DefaultContext
+  name: DefaultContext
+  href: api/BDeshi.Logging.SerializableCategoryLogger-1.html#BDeshi_Logging_SerializableCategoryLogger_1_DefaultContext
+  commentId: P:BDeshi.Logging.SerializableCategoryLogger`1.DefaultContext
+  fullName: BDeshi.Logging.SerializableCategoryLogger<TLogCategory>.DefaultContext
+  fullName.vb: BDeshi.Logging.SerializableCategoryLogger(Of TLogCategory).DefaultContext
+  nameWithType: SerializableCategoryLogger<TLogCategory>.DefaultContext
+  nameWithType.vb: SerializableCategoryLogger(Of TLogCategory).DefaultContext
+- uid: BDeshi.Logging.SerializableCategoryLogger`1.DefaultContext*
+  name: DefaultContext
+  href: api/BDeshi.Logging.SerializableCategoryLogger-1.html#BDeshi_Logging_SerializableCategoryLogger_1_DefaultContext_
+  commentId: Overload:BDeshi.Logging.SerializableCategoryLogger`1.DefaultContext
+  isSpec: "True"
+  fullName: BDeshi.Logging.SerializableCategoryLogger<TLogCategory>.DefaultContext
+  fullName.vb: BDeshi.Logging.SerializableCategoryLogger(Of TLogCategory).DefaultContext
+  nameWithType: SerializableCategoryLogger<TLogCategory>.DefaultContext
+  nameWithType.vb: SerializableCategoryLogger(Of TLogCategory).DefaultContext
+- uid: BDeshi.Logging.SerializableCategoryLogger`1.Flags
+  name: Flags
+  href: api/BDeshi.Logging.SerializableCategoryLogger-1.html#BDeshi_Logging_SerializableCategoryLogger_1_Flags
+  commentId: F:BDeshi.Logging.SerializableCategoryLogger`1.Flags
+  fullName: BDeshi.Logging.SerializableCategoryLogger<TLogCategory>.Flags
+  fullName.vb: BDeshi.Logging.SerializableCategoryLogger(Of TLogCategory).Flags
+  nameWithType: SerializableCategoryLogger<TLogCategory>.Flags
+  nameWithType.vb: SerializableCategoryLogger(Of TLogCategory).Flags
+- uid: BDeshi.Logging.SerializableCategoryLogger`1.Log(`0,System.String,BDeshi.Logging.LogPriority)
+  name: Log(TLogCategory, string, LogPriority)
+  href: api/BDeshi.Logging.SerializableCategoryLogger-1.html#BDeshi_Logging_SerializableCategoryLogger_1_Log__0_System_String_BDeshi_Logging_LogPriority_
+  commentId: M:BDeshi.Logging.SerializableCategoryLogger`1.Log(`0,System.String,BDeshi.Logging.LogPriority)
+  name.vb: Log(TLogCategory, String, LogPriority)
+  fullName: BDeshi.Logging.SerializableCategoryLogger<TLogCategory>.Log(TLogCategory, string, BDeshi.Logging.LogPriority)
+  fullName.vb: BDeshi.Logging.SerializableCategoryLogger(Of TLogCategory).Log(TLogCategory, String, BDeshi.Logging.LogPriority)
+  nameWithType: SerializableCategoryLogger<TLogCategory>.Log(TLogCategory, string, LogPriority)
+  nameWithType.vb: SerializableCategoryLogger(Of TLogCategory).Log(TLogCategory, String, LogPriority)
+- uid: BDeshi.Logging.SerializableCategoryLogger`1.Log(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)
+  name: Log(TLogCategory, string, Object, LogPriority)
+  href: api/BDeshi.Logging.SerializableCategoryLogger-1.html#BDeshi_Logging_SerializableCategoryLogger_1_Log__0_System_String_UnityEngine_Object_BDeshi_Logging_LogPriority_
+  commentId: M:BDeshi.Logging.SerializableCategoryLogger`1.Log(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)
+  name.vb: Log(TLogCategory, String, Object, LogPriority)
+  fullName: BDeshi.Logging.SerializableCategoryLogger<TLogCategory>.Log(TLogCategory, string, UnityEngine.Object, BDeshi.Logging.LogPriority)
+  fullName.vb: BDeshi.Logging.SerializableCategoryLogger(Of TLogCategory).Log(TLogCategory, String, UnityEngine.Object, BDeshi.Logging.LogPriority)
+  nameWithType: SerializableCategoryLogger<TLogCategory>.Log(TLogCategory, string, UnityEngine.Object, LogPriority)
+  nameWithType.vb: SerializableCategoryLogger(Of TLogCategory).Log(TLogCategory, String, UnityEngine.Object, LogPriority)
+- uid: BDeshi.Logging.SerializableCategoryLogger`1.Log*
+  name: Log
+  href: api/BDeshi.Logging.SerializableCategoryLogger-1.html#BDeshi_Logging_SerializableCategoryLogger_1_Log_
+  commentId: Overload:BDeshi.Logging.SerializableCategoryLogger`1.Log
+  isSpec: "True"
+  fullName: BDeshi.Logging.SerializableCategoryLogger<TLogCategory>.Log
+  fullName.vb: BDeshi.Logging.SerializableCategoryLogger(Of TLogCategory).Log
+  nameWithType: SerializableCategoryLogger<TLogCategory>.Log
+  nameWithType.vb: SerializableCategoryLogger(Of TLogCategory).Log
+- uid: BDeshi.Logging.SerializableCategoryLogger`1.LogError(`0,System.String,BDeshi.Logging.LogPriority)
+  name: LogError(TLogCategory, string, LogPriority)
+  href: api/BDeshi.Logging.SerializableCategoryLogger-1.html#BDeshi_Logging_SerializableCategoryLogger_1_LogError__0_System_String_BDeshi_Logging_LogPriority_
+  commentId: M:BDeshi.Logging.SerializableCategoryLogger`1.LogError(`0,System.String,BDeshi.Logging.LogPriority)
+  name.vb: LogError(TLogCategory, String, LogPriority)
+  fullName: BDeshi.Logging.SerializableCategoryLogger<TLogCategory>.LogError(TLogCategory, string, BDeshi.Logging.LogPriority)
+  fullName.vb: BDeshi.Logging.SerializableCategoryLogger(Of TLogCategory).LogError(TLogCategory, String, BDeshi.Logging.LogPriority)
+  nameWithType: SerializableCategoryLogger<TLogCategory>.LogError(TLogCategory, string, LogPriority)
+  nameWithType.vb: SerializableCategoryLogger(Of TLogCategory).LogError(TLogCategory, String, LogPriority)
+- uid: BDeshi.Logging.SerializableCategoryLogger`1.LogError(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)
+  name: LogError(TLogCategory, string, Object, LogPriority)
+  href: api/BDeshi.Logging.SerializableCategoryLogger-1.html#BDeshi_Logging_SerializableCategoryLogger_1_LogError__0_System_String_UnityEngine_Object_BDeshi_Logging_LogPriority_
+  commentId: M:BDeshi.Logging.SerializableCategoryLogger`1.LogError(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)
+  name.vb: LogError(TLogCategory, String, Object, LogPriority)
+  fullName: BDeshi.Logging.SerializableCategoryLogger<TLogCategory>.LogError(TLogCategory, string, UnityEngine.Object, BDeshi.Logging.LogPriority)
+  fullName.vb: BDeshi.Logging.SerializableCategoryLogger(Of TLogCategory).LogError(TLogCategory, String, UnityEngine.Object, BDeshi.Logging.LogPriority)
+  nameWithType: SerializableCategoryLogger<TLogCategory>.LogError(TLogCategory, string, UnityEngine.Object, LogPriority)
+  nameWithType.vb: SerializableCategoryLogger(Of TLogCategory).LogError(TLogCategory, String, UnityEngine.Object, LogPriority)
+- uid: BDeshi.Logging.SerializableCategoryLogger`1.LogError*
+  name: LogError
+  href: api/BDeshi.Logging.SerializableCategoryLogger-1.html#BDeshi_Logging_SerializableCategoryLogger_1_LogError_
+  commentId: Overload:BDeshi.Logging.SerializableCategoryLogger`1.LogError
+  isSpec: "True"
+  fullName: BDeshi.Logging.SerializableCategoryLogger<TLogCategory>.LogError
+  fullName.vb: BDeshi.Logging.SerializableCategoryLogger(Of TLogCategory).LogError
+  nameWithType: SerializableCategoryLogger<TLogCategory>.LogError
+  nameWithType.vb: SerializableCategoryLogger(Of TLogCategory).LogError
+- uid: BDeshi.Logging.SerializableCategoryLogger`1.LogWarning(`0,System.String,BDeshi.Logging.LogPriority)
+  name: LogWarning(TLogCategory, string, LogPriority)
+  href: api/BDeshi.Logging.SerializableCategoryLogger-1.html#BDeshi_Logging_SerializableCategoryLogger_1_LogWarning__0_System_String_BDeshi_Logging_LogPriority_
+  commentId: M:BDeshi.Logging.SerializableCategoryLogger`1.LogWarning(`0,System.String,BDeshi.Logging.LogPriority)
+  name.vb: LogWarning(TLogCategory, String, LogPriority)
+  fullName: BDeshi.Logging.SerializableCategoryLogger<TLogCategory>.LogWarning(TLogCategory, string, BDeshi.Logging.LogPriority)
+  fullName.vb: BDeshi.Logging.SerializableCategoryLogger(Of TLogCategory).LogWarning(TLogCategory, String, BDeshi.Logging.LogPriority)
+  nameWithType: SerializableCategoryLogger<TLogCategory>.LogWarning(TLogCategory, string, LogPriority)
+  nameWithType.vb: SerializableCategoryLogger(Of TLogCategory).LogWarning(TLogCategory, String, LogPriority)
+- uid: BDeshi.Logging.SerializableCategoryLogger`1.LogWarning(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)
+  name: LogWarning(TLogCategory, string, Object, LogPriority)
+  href: api/BDeshi.Logging.SerializableCategoryLogger-1.html#BDeshi_Logging_SerializableCategoryLogger_1_LogWarning__0_System_String_UnityEngine_Object_BDeshi_Logging_LogPriority_
+  commentId: M:BDeshi.Logging.SerializableCategoryLogger`1.LogWarning(`0,System.String,UnityEngine.Object,BDeshi.Logging.LogPriority)
+  name.vb: LogWarning(TLogCategory, String, Object, LogPriority)
+  fullName: BDeshi.Logging.SerializableCategoryLogger<TLogCategory>.LogWarning(TLogCategory, string, UnityEngine.Object, BDeshi.Logging.LogPriority)
+  fullName.vb: BDeshi.Logging.SerializableCategoryLogger(Of TLogCategory).LogWarning(TLogCategory, String, UnityEngine.Object, BDeshi.Logging.LogPriority)
+  nameWithType: SerializableCategoryLogger<TLogCategory>.LogWarning(TLogCategory, string, UnityEngine.Object, LogPriority)
+  nameWithType.vb: SerializableCategoryLogger(Of TLogCategory).LogWarning(TLogCategory, String, UnityEngine.Object, LogPriority)
+- uid: BDeshi.Logging.SerializableCategoryLogger`1.LogWarning*
+  name: LogWarning
+  href: api/BDeshi.Logging.SerializableCategoryLogger-1.html#BDeshi_Logging_SerializableCategoryLogger_1_LogWarning_
+  commentId: Overload:BDeshi.Logging.SerializableCategoryLogger`1.LogWarning
+  isSpec: "True"
+  fullName: BDeshi.Logging.SerializableCategoryLogger<TLogCategory>.LogWarning
+  fullName.vb: BDeshi.Logging.SerializableCategoryLogger(Of TLogCategory).LogWarning
+  nameWithType: SerializableCategoryLogger<TLogCategory>.LogWarning
+  nameWithType.vb: SerializableCategoryLogger(Of TLogCategory).LogWarning
+- uid: BDeshi.Logging.SerializableCategoryLogger`1.MinLogPriority
+  name: MinLogPriority
+  href: api/BDeshi.Logging.SerializableCategoryLogger-1.html#BDeshi_Logging_SerializableCategoryLogger_1_MinLogPriority
+  commentId: F:BDeshi.Logging.SerializableCategoryLogger`1.MinLogPriority
+  fullName: BDeshi.Logging.SerializableCategoryLogger<TLogCategory>.MinLogPriority
+  fullName.vb: BDeshi.Logging.SerializableCategoryLogger(Of TLogCategory).MinLogPriority
+  nameWithType: SerializableCategoryLogger<TLogCategory>.MinLogPriority
+  nameWithType.vb: SerializableCategoryLogger(Of TLogCategory).MinLogPriority
+- uid: BDeshi.Logging.SerializableCategoryLogger`1.Prefix
+  name: Prefix
+  href: api/BDeshi.Logging.SerializableCategoryLogger-1.html#BDeshi_Logging_SerializableCategoryLogger_1_Prefix
+  commentId: F:BDeshi.Logging.SerializableCategoryLogger`1.Prefix
+  fullName: BDeshi.Logging.SerializableCategoryLogger<TLogCategory>.Prefix
+  fullName.vb: BDeshi.Logging.SerializableCategoryLogger(Of TLogCategory).Prefix
+  nameWithType: SerializableCategoryLogger<TLogCategory>.Prefix
+  nameWithType.vb: SerializableCategoryLogger(Of TLogCategory).Prefix
 - uid: bdeshi.logging.Samples
   name: bdeshi.logging.Samples
   href: api/bdeshi.logging.Samples.html
