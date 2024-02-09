@@ -13,7 +13,7 @@ namespace bdeshi.logging.Samples
     }
     public class TestLogger:MonoBehaviour
     {
-        public CustomLogger<TestLogCategory> Logger = new CustomLogger<TestLogCategory>(
+        public SerializableCategoryLogger<TestLogCategory> Logger = new SerializableCategoryLogger<TestLogCategory>(
             TestLogCategory.Sunday |
             TestLogCategory.Monday |
             TestLogCategory.Tuesday

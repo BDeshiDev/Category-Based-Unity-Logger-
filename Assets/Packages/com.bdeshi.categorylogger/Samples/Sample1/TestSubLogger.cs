@@ -3,10 +3,10 @@ using UnityEngine;
 
 namespace bdeshi.logging.Samples
 {
-    public class TestSubLogger:MonoBehaviour, ISubLoggerMixin<TestLogCategory>
+    public class TestSubLogger:MonoBehaviour, ISubCategoryLoggerMixin<TestLogCategory>
     {
         public TestLogCategory Category => TestLogCategory.Tuesday | TestLogCategory.Sunday;
-        public CustomLogger<TestLogCategory> Logger => TestLogger.Instance.Logger;
+        public ICategoryLogger<TestLogCategory> Logger => TestLogger.Instance.Logger;
 
         public void logTest()
         {
