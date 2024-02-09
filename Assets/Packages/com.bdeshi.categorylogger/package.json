@@ -1,8 +1,8 @@
 {
     "name": "com.bdeshi.categorylogger",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "displayName": "Category Based Logger",
-    "description": "A logger thatallows you to filter logs based on a generic enum bitfieldparameter",
+    "description": "A logger that allows you to filter logs based on a generic enum bitfield parameter",
     "unity": "2022.3",
     "unityRelease": "10f1",
     "licensesUrl": "https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/93ce1925a35e0c8ad0d6b56890f5d27e9a0e02b4/LICENSE.md",
@@ -11,15 +11,11 @@
         "name": "Studio 23",
         "url": "https://package.openupm.com",
         "scopes": [
-          "com.studio23.ss2"
+          "com.bdeshi.categorylogger"
         ]
       }], 
     "dependencies": {
-        "com.bdeshi.helpers": "1.0.0",
-        "com.cysharp.unitask": "2.4.1",
-        "com.textus-games.serialized-reference-ui": "1.0.0",
-        "com.unity.inputsystem": "1.7.0",
-        "com.unity.textmeshpro": "3.0.6"
+
    },
    "keywords": [
       "logging"
@@ -27,18 +23,16 @@
   "samples": [
       {
         "displayName": "Sample1",
-        "description": "A scene containing example implementations of InteractableBase classes and nested interactions. To run: \n 1. Install DOTWEEN \n 2. Add the scripting define symbol UNITASK_DOTWEEN_SUPPORT in ProjectSettings/Player",
-        "path": "Samples~/Smaple1/"
+        "description": "A scene containing an example logger",
+        "path": "Samples~/Sample1/"
       }
     ],  
   "repository": {
       "type": "git",
-      "url": "https://github.com/Studio-23-xyz/interactionsystem.git"    
+      "url": "https://github.com/Studio-23-xyz/Category-Based-Unity-Logger-.git"    
     },
     "license": "MIT",  
     "author": {
-      "name": "Studio 23",
-      "email": "contact@studio-23.xyz",
-      "url": "https://studio-23.xyz"
+      "name": "B-DeshIDev",
     }
   }
