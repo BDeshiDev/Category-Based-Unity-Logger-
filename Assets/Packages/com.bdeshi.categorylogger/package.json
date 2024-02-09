@@ -1,6 +1,6 @@
 {
     "name": "com.bdeshi.categorylogger",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "displayName": "Category Based Logger",
     "description": "A logger that allows you to filter logs based on a generic enum bitfield parameter",
     "unity": "2022.3",
