@@ -3,32 +3,23 @@ using System.Runtime.CompilerServices;
 
 namespace BDeshi.Logging
 {
-    /// <summary>
-    /// Priority level separate from log/warning/error trifecta
-    /// </summary>
-    public enum LogPriority
-    {
-        Low, Normal, High, Ultra, PlusUltra
-    }
-    
     [Serializable]
-    public class CustomLogger<TLogCategory>
-        where TLogCategory : struct, Enum, IConvertible
+    public class SerializableCategoryLogger<TLogCategory> : ICategoryLogger<TLogCategory> where TLogCategory : struct, Enum, IConvertible
     {
         public TLogCategory Flags;
         public LogPriority MinLogPriority = LogPriority.Normal;
-        public UnityEngine.Object DefaultContext;
+        public UnityEngine.Object DefaultContext { get; set; }
         public Color CategoryColor = Color.green;
         public string Prefix;
         
-        public CustomLogger(TLogCategory flags, string Prefix, GameObject defaultContext = null, LogPriority minLogPriority = LogPriority.Normal)
+        public SerializableCategoryLogger(TLogCategory flags, string Prefix, UnityEngine.Object defaultContext = null, LogPriority minLogPriority = LogPriority.Normal)
         {
             this.Flags = flags;
             this.DefaultContext = defaultContext;
             this.Prefix = Prefix;
             this.MinLogPriority = minLogPriority;
         }
-        public CustomLogger(TLogCategory flags, GameObject defaultContext = null, LogPriority minLogPriority = LogPriority.Normal)
+        public SerializableCategoryLogger(TLogCategory flags, UnityEngine.Object defaultContext = null, LogPriority minLogPriority = LogPriority.Normal)
             : this(flags, typeof(TLogCategory).Name + ".", defaultContext, minLogPriority) 
         {
             

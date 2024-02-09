@@ -36,45 +36,45 @@ namespace BDeshi.Logging
             return $"<b>{s}</b>";
         }
         
-        public static void Log<TLogCategory>(this ISubLoggerMixin<TLogCategory> subLogger,string msg, LogPriority priority = LogPriority.Normal)
+        public static void Log<TLogCategory>(this ISubCategoryLoggerMixin<TLogCategory> subCategoryLogger,string msg, LogPriority priority = LogPriority.Normal)
             where TLogCategory: struct, Enum, IConvertible
         {
-            subLogger.Logger.Log(subLogger.Category, msg, subLogger.gameObject, priority);
+            subCategoryLogger.Logger.Log(subCategoryLogger.Category, msg, subCategoryLogger.gameObject, priority);
         }
         
-        public static void LogWarning<TLogCategory>(this ISubLoggerMixin<TLogCategory> subLogger,string msg, LogPriority priority = LogPriority.Normal)
+        public static void LogWarning<TLogCategory>(this ISubCategoryLoggerMixin<TLogCategory> subCategoryLogger,string msg, LogPriority priority = LogPriority.Normal)
             where TLogCategory: struct, Enum, IConvertible
 
         {
-            subLogger.Logger.LogWarning(subLogger.Category, msg, subLogger.gameObject, priority);
+            subCategoryLogger.Logger.LogWarning(subCategoryLogger.Category, msg, subCategoryLogger.gameObject, priority);
         }
         
-        public static void LogError<TLogCategory>(this ISubLoggerMixin<TLogCategory> subLogger,string msg, LogPriority priority = LogPriority.Normal)
+        public static void LogError<TLogCategory>(this ISubCategoryLoggerMixin<TLogCategory> subCategoryLogger,string msg, LogPriority priority = LogPriority.Normal)
             where TLogCategory: struct, Enum, IConvertible
 
         {
-            subLogger.Logger.LogError(subLogger.Category, msg, subLogger.gameObject, priority);
+            subCategoryLogger.Logger.LogError(subCategoryLogger.Category, msg, subCategoryLogger.gameObject, priority);
         }
         
-        public static void Log<TLogCategory>(this ISubLoggerMixin<TLogCategory> subLogger,string msg, TLogCategory categoryOverride, LogPriority priority = LogPriority.Normal)
+        public static void Log<TLogCategory>(this ISubCategoryLoggerMixin<TLogCategory> subCategoryLogger,string msg, TLogCategory categoryOverride, LogPriority priority = LogPriority.Normal)
             where TLogCategory: struct, Enum, IConvertible
 
         {
-            subLogger.Logger.Log(categoryOverride, msg, subLogger.gameObject, priority);
+            subCategoryLogger.Logger.Log(categoryOverride, msg, subCategoryLogger.gameObject, priority);
         }
         
-        public static void LogWarning<TLogCategory>(this ISubLoggerMixin<TLogCategory> subLogger,string msg, TLogCategory categoryOverride, LogPriority priority = LogPriority.Normal)
+        public static void LogWarning<TLogCategory>(this ISubCategoryLoggerMixin<TLogCategory> subCategoryLogger,string msg, TLogCategory categoryOverride, LogPriority priority = LogPriority.Normal)
             where TLogCategory: struct, Enum, IConvertible
 
         {
-            subLogger.Logger.LogWarning(categoryOverride, msg, subLogger.gameObject, priority);
+            subCategoryLogger.Logger.LogWarning(categoryOverride, msg, subCategoryLogger.gameObject, priority);
         }
 
-        public static void LogError<TLogCategory>(this ISubLoggerMixin<TLogCategory> subLogger, string msg, TLogCategory categoryOverride, LogPriority priority = LogPriority.Normal)
+        public static void LogError<TLogCategory>(this ISubCategoryLoggerMixin<TLogCategory> subCategoryLogger, string msg, TLogCategory categoryOverride, LogPriority priority = LogPriority.Normal)
             where TLogCategory: struct, Enum, IConvertible
 
         {
-            subLogger.Logger.LogError(categoryOverride, msg, subLogger.gameObject, priority);
+            subCategoryLogger.Logger.LogError(categoryOverride, msg, subCategoryLogger.gameObject, priority);
         }
     }
 }
