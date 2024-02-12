@@ -9,12 +9,10 @@ namespace BDeshi.Logging
     /// </summary>
     /// <typeparam name="TLogCategory"></typeparam>
     /// <typeparam name="TLoggerHolder"></typeparam>
-    public interface ISubCategoryLoggerMixin<TLogCategory>
+    public interface ISubCategoryLoggerMixin<TLogCategory> : ILoggerMixin<TLogCategory>
         where TLogCategory: struct, Enum, IConvertible
     {
-        GameObject gameObject { get; }
         TLogCategory Category { get; }
         //#NOTE, all method defs are in extension methods because this.log() syntax requires that
-        ICategoryLogger<TLogCategory> Logger { get; }
     }
 }
