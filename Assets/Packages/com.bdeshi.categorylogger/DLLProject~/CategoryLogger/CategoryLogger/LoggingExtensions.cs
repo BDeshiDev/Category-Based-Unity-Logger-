@@ -56,25 +56,29 @@ namespace BDeshi.Logging
             subCategoryLogger.Logger.LogError(subCategoryLogger.Category, msg, subCategoryLogger.gameObject, priority);
         }
         
-        public static void Log<TLogCategory>(this ISubCategoryLoggerMixin<TLogCategory> subCategoryLogger,string msg, TLogCategory categoryOverride, LogPriority priority = LogPriority.Normal)
+        public static void Log<TLogCategory>(this ILoggerMixin<TLogCategory> categoryLogger, TLogCategory category,
+            string msg, LogPriority priority = LogPriority.Normal)
             where TLogCategory: struct, Enum, IConvertible
 
         {
-            subCategoryLogger.Logger.Log(categoryOverride, msg, subCategoryLogger.gameObject, priority);
+            categoryLogger.Logger.Log(category, msg, categoryLogger.gameObject, priority);
         }
         
-        public static void LogWarning<TLogCategory>(this ISubCategoryLoggerMixin<TLogCategory> subCategoryLogger,string msg, TLogCategory categoryOverride, LogPriority priority = LogPriority.Normal)
+        public static void LogWarning<TLogCategory>(this ILoggerMixin<TLogCategory> categoryLogger,
+            TLogCategory category, string msg, LogPriority priority = LogPriority.Normal)
             where TLogCategory: struct, Enum, IConvertible
 
         {
-            subCategoryLogger.Logger.LogWarning(categoryOverride, msg, subCategoryLogger.gameObject, priority);
+            categoryLogger.Logger.LogWarning(category, msg, categoryLogger.gameObject, priority);
         }
 
-        public static void LogError<TLogCategory>(this ISubCategoryLoggerMixin<TLogCategory> subCategoryLogger, string msg, TLogCategory categoryOverride, LogPriority priority = LogPriority.Normal)
+        public static void LogError<TLogCategory>(this ILoggerMixin<TLogCategory> categoryLogger,
+            TLogCategory category, string msg,
+            LogPriority priority = LogPriority.Normal)
             where TLogCategory: struct, Enum, IConvertible
 
         {
-            subCategoryLogger.Logger.LogError(categoryOverride, msg, subCategoryLogger.gameObject, priority);
+            categoryLogger.Logger.LogError(category, msg, categoryLogger.gameObject, priority);
         }
     }
 }
