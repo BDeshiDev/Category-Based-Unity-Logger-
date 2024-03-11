@@ -102,7 +102,7 @@ Interface ISubCategoryLoggerMixin&lt;TLogCategory&gt;  <a class="header-action l
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ISubCategoryLoggerMixin&lt;TLogCategory&gt; where TLogCategory : struct, Enum, IConvertible</code></pre>
+    <pre><code class="lang-csharp hljs">public interface ISubCategoryLoggerMixin&lt;TLogCategory&gt; : ILoggerMixin&lt;TLogCategory&gt; where TLogCategory : struct, Enum, IConvertible</code></pre>
   </div>
 
 
@@ -116,27 +116,37 @@ Interface ISubCategoryLoggerMixin&lt;TLogCategory&gt;  <a class="header-action l
 
 
 
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="BDeshi.Logging.ILoggerMixin-1.html#BDeshi_Logging_ILoggerMixin_1_gameObject">ILoggerMixin&lt;TLogCategory&gt;.gameObject</a>
+    </div>
+    <div>
+      <a class="xref" href="BDeshi.Logging.ILoggerMixin-1.html#BDeshi_Logging_ILoggerMixin_1_Logger">ILoggerMixin&lt;TLogCategory&gt;.Logger</a>
+    </div>
+  </dd></dl>
 
   <dl class="typelist extensionMethods">
     <dt>Extension Methods</dt>
     <dd>
   <div>
-      <a class="xref" href="BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_LogError__1_BDeshi_Logging_ISubCategoryLoggerMixin___0__System_String_BDeshi_Logging_LogPriority_">LoggingExtensions.LogError&lt;TLogCategory&gt;(ISubCategoryLoggerMixin&lt;TLogCategory&gt;, string, LogPriority)</a>
+      <a class="xref" href="BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_LogError__1_BDeshi_Logging_ILoggerMixin___0____0_System_String_BDeshi_Logging_LogPriority_">LoggingExtensions.LogError&lt;TLogCategory&gt;(ILoggerMixin&lt;TLogCategory&gt;, TLogCategory, string, LogPriority)</a>
   </div>
   <div>
-      <a class="xref" href="BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_LogError__1_BDeshi_Logging_ISubCategoryLoggerMixin___0__System_String___0_BDeshi_Logging_LogPriority_">LoggingExtensions.LogError&lt;TLogCategory&gt;(ISubCategoryLoggerMixin&lt;TLogCategory&gt;, string, TLogCategory, LogPriority)</a>
+      <a class="xref" href="BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_LogWarning__1_BDeshi_Logging_ILoggerMixin___0____0_System_String_BDeshi_Logging_LogPriority_">LoggingExtensions.LogWarning&lt;TLogCategory&gt;(ILoggerMixin&lt;TLogCategory&gt;, TLogCategory, string, LogPriority)</a>
+  </div>
+  <div>
+      <a class="xref" href="BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_Log__1_BDeshi_Logging_ILoggerMixin___0____0_System_String_BDeshi_Logging_LogPriority_">LoggingExtensions.Log&lt;TLogCategory&gt;(ILoggerMixin&lt;TLogCategory&gt;, TLogCategory, string, LogPriority)</a>
+  </div>
+  <div>
+      <a class="xref" href="BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_LogError__1_BDeshi_Logging_ISubCategoryLoggerMixin___0__System_String_BDeshi_Logging_LogPriority_">LoggingExtensions.LogError&lt;TLogCategory&gt;(ISubCategoryLoggerMixin&lt;TLogCategory&gt;, string, LogPriority)</a>
   </div>
   <div>
       <a class="xref" href="BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_LogWarning__1_BDeshi_Logging_ISubCategoryLoggerMixin___0__System_String_BDeshi_Logging_LogPriority_">LoggingExtensions.LogWarning&lt;TLogCategory&gt;(ISubCategoryLoggerMixin&lt;TLogCategory&gt;, string, LogPriority)</a>
   </div>
   <div>
-      <a class="xref" href="BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_LogWarning__1_BDeshi_Logging_ISubCategoryLoggerMixin___0__System_String___0_BDeshi_Logging_LogPriority_">LoggingExtensions.LogWarning&lt;TLogCategory&gt;(ISubCategoryLoggerMixin&lt;TLogCategory&gt;, string, TLogCategory, LogPriority)</a>
-  </div>
-  <div>
       <a class="xref" href="BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_Log__1_BDeshi_Logging_ISubCategoryLoggerMixin___0__System_String_BDeshi_Logging_LogPriority_">LoggingExtensions.Log&lt;TLogCategory&gt;(ISubCategoryLoggerMixin&lt;TLogCategory&gt;, string, LogPriority)</a>
-  </div>
-  <div>
-      <a class="xref" href="BDeshi.Logging.LoggingExtensions.html#BDeshi_Logging_LoggingExtensions_Log__1_BDeshi_Logging_ISubCategoryLoggerMixin___0__System_String___0_BDeshi_Logging_LogPriority_">LoggingExtensions.Log&lt;TLogCategory&gt;(ISubCategoryLoggerMixin&lt;TLogCategory&gt;, string, TLogCategory, LogPriority)</a>
   </div>
   </dd></dl>
 
@@ -152,7 +162,7 @@ Interface ISubCategoryLoggerMixin&lt;TLogCategory&gt;  <a class="header-action l
 
   <h3 id="BDeshi_Logging_ISubCategoryLoggerMixin_1_Category" data-uid="BDeshi.Logging.ISubCategoryLoggerMixin`1.Category">
   Category
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/ISubCategoryLoggerMixin.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/ISubCategoryLoggerMixin.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -169,68 +179,6 @@ Interface ISubCategoryLoggerMixin&lt;TLogCategory&gt;  <a class="header-action l
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><span class="xref">TLogCategory</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="BDeshi_Logging_ISubCategoryLoggerMixin_1_Logger_" data-uid="BDeshi.Logging.ISubCategoryLoggerMixin`1.Logger*"></a>
-
-  <h3 id="BDeshi_Logging_ISubCategoryLoggerMixin_1_Logger" data-uid="BDeshi.Logging.ISubCategoryLoggerMixin`1.Logger">
-  Logger
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/ISubCategoryLoggerMixin.cs/#L18"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">ICategoryLogger&lt;TLogCategory&gt; Logger { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="BDeshi.Logging.ICategoryLogger-1.html">ICategoryLogger</a>&lt;TLogCategory&gt;</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="BDeshi_Logging_ISubCategoryLoggerMixin_1_gameObject_" data-uid="BDeshi.Logging.ISubCategoryLoggerMixin`1.gameObject*"></a>
-
-  <h3 id="BDeshi_Logging_ISubCategoryLoggerMixin_1_gameObject" data-uid="BDeshi.Logging.ISubCategoryLoggerMixin`1.gameObject">
-  gameObject
-  <a class="header-action link-secondary" title="View source" href="https://github.com/BDeshiDev/Category-Based-Unity-Logger-/blob/main/Assets/Packages/com.bdeshi.categorylogger/DLLProject~/CategoryLogger/CategoryLogger/ISubCategoryLoggerMixin.cs/#L15"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">GameObject gameObject { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">GameObject</span></dt>
     <dd></dd>
   </dl>
 

@@ -25,6 +25,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/BDeshi.Logging.ILoggerMixin-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BDeshi.Logging.ILoggerMixin-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/BDeshi.Logging.ISubCategoryLoggerMixin-1.yml",
       "output": {
         ".html": {

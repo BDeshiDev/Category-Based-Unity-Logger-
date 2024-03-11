@@ -2,85 +2,91 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://bdeshidev.github.io/Category-Based-Unity-Logger-/api/BDeshi.Logging.ICategoryLogger-1.html</loc>
-    <lastmod>2024-02-09T08:17:50+00:00</lastmod>
+    <lastmod>2024-03-11T04:30:40+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://bdeshidev.github.io/Category-Based-Unity-Logger-/api/BDeshi.Logging.ILoggerMixin-1.html</loc>
+    <lastmod>2024-03-11T04:30:40+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bdeshidev.github.io/Category-Based-Unity-Logger-/api/BDeshi.Logging.ISubCategoryLoggerMixin-1.html</loc>
-    <lastmod>2024-02-09T08:17:50+00:00</lastmod>
+    <lastmod>2024-03-11T04:30:40+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bdeshidev.github.io/Category-Based-Unity-Logger-/api/BDeshi.Logging.LogPriority.html</loc>
-    <lastmod>2024-02-09T08:17:50+00:00</lastmod>
+    <lastmod>2024-03-11T04:30:40+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bdeshidev.github.io/Category-Based-Unity-Logger-/api/BDeshi.Logging.LoggingExtensions.html</loc>
-    <lastmod>2024-02-09T08:17:50+00:00</lastmod>
+    <lastmod>2024-03-11T04:30:40+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bdeshidev.github.io/Category-Based-Unity-Logger-/api/BDeshi.Logging.SerializableCategoryLogger-1.html</loc>
-    <lastmod>2024-02-09T08:17:50+00:00</lastmod>
+    <lastmod>2024-03-11T04:30:40+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bdeshidev.github.io/Category-Based-Unity-Logger-/api/BDeshi.Logging.html</loc>
-    <lastmod>2024-02-09T08:17:50+00:00</lastmod>
+    <lastmod>2024-03-11T04:30:40+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bdeshidev.github.io/Category-Based-Unity-Logger-/api/bdeshi.logging.Samples.TestLogCategory.html</loc>
-    <lastmod>2024-02-09T08:17:50+00:00</lastmod>
+    <lastmod>2024-03-11T04:30:40+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bdeshidev.github.io/Category-Based-Unity-Logger-/api/bdeshi.logging.Samples.TestLogger.html</loc>
-    <lastmod>2024-02-09T08:17:50+00:00</lastmod>
+    <lastmod>2024-03-11T04:30:40+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bdeshidev.github.io/Category-Based-Unity-Logger-/api/bdeshi.logging.Samples.TestSubLogger.html</loc>
-    <lastmod>2024-02-09T08:17:50+00:00</lastmod>
+    <lastmod>2024-03-11T04:30:40+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bdeshidev.github.io/Category-Based-Unity-Logger-/api/bdeshi.logging.Samples.html</loc>
-    <lastmod>2024-02-09T08:17:50+00:00</lastmod>
+    <lastmod>2024-03-11T04:30:40+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bdeshidev.github.io/Category-Based-Unity-Logger-/api/index.html</loc>
-    <lastmod>2024-02-09T08:17:50+00:00</lastmod>
+    <lastmod>2024-03-11T04:30:40+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bdeshidev.github.io/Category-Based-Unity-Logger-/index.html</loc>
-    <lastmod>2024-02-09T08:17:50+00:00</lastmod>
+    <lastmod>2024-03-11T04:30:40+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bdeshidev.github.io/Category-Based-Unity-Logger-/license/LICENSE.html</loc>
-    <lastmod>2024-02-09T08:17:50+00:00</lastmod>
+    <lastmod>2024-03-11T04:30:40+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bdeshidev.github.io/Category-Based-Unity-Logger-/manual/index.html</loc>
-    <lastmod>2024-02-09T08:17:50+00:00</lastmod>
+    <lastmod>2024-03-11T04:30:40+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
